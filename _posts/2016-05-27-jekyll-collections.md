@@ -6,6 +6,7 @@ author: sharathdt
 image: jekyll-collection.svg
 tags: Jekyll
 permalink: /jekyll-collections/
+layout: post
 ---
 
 <img width="600px" max-height="375px" alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">

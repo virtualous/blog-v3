@@ -6,6 +6,7 @@ author: sharathdt
 tags: Jekyll SEO Github-Pages 
 image: ssl-jekyll.png
 permalink: /jekyll-ssl/
+layout: post
 ---
 
 <img width="600px" max-height="375px" alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">

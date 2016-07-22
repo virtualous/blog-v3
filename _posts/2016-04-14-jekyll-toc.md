@@ -6,6 +6,7 @@ author: sharathdt
 tags: Jekyll  
 image: jekyll-toc.png
 permalink: /jekyll-toc/
+layout: post
 ---
 
 <img width="600px" max-height="375px" alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">

@@ -6,6 +6,7 @@ author: sharathdt
 image: jekyll-categories.png
 tags: Jekyll
 permalink: /jekyll-categories/
+layout: post
 ---
 
 <img width="600px" max-height="375px" alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
