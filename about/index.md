@@ -61,6 +61,8 @@ If you are looking for a modern, fast loading, visually appealing website, then 
 
 <pre>
 <h2>2016</h2>
+20th July - Added realted posts and decreased layout width a little bit.
+
 3rd June - Added 'disqus on request' button.
 
 30th May - Reduced Fontawesome size to 10KB!
