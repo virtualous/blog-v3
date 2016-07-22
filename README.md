@@ -1,1 +1,2 @@
-# blog-v3
+# blog-webjeda
+A web development blog
