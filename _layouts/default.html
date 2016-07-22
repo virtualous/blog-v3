@@ -21,8 +21,31 @@ layout: compress
              {% include footer-1.html %}
 
 
+<noscript>
+      <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+      <link rel="stylesheet" type="text/css" href="/font-awesome/css/font-awesome.min.css"/>
+</noscript>
 
-<script async src="/js/css-def.js"></script>
+
+<script>
+    (function() {
+        var font = document.createElement('link'); 
+        var font2 = document.createElement('link'); 
+        font.type = 'text/css'; 
+        font2.type = 'text/css'; 
+        font.rel = 'stylesheet';
+        font2.rel = 'stylesheet';
+        font.href = '/css/main.css';
+        font2.href = '/font-awesome/css/font-awesome.min.css';
+        var s = document.getElementsByTagName('link')[0]; 
+        var t = document.getElementsByTagName('link')[0]; 
+        s.parentNode.insertBefore(font, s);
+        t.parentNode.insertBefore(font2, t);
+      })();
+</script>
+
+
+<!-- <script async src="/js/css-def.js"></script> -->
 {% if site.ad == 'no' %}{% else %}
  <script>window.onload=function(){setTimeout(function(){var a=document.querySelector("ins.adsbygoogle");a&&0==a.innerHTML.replace(/\s/g,"").length&&(a.style.cssText="display:block !important; visibility:visible !important;text-decoration:none !important;font-family: 'wj';font-size: 1.25em; margin-top: 2em",a.innerHTML="<p>I notice that you're using an <strong>ad-blocker</strong>. That's cool, you want a fast and clean experience but let's imagine you eat at a restaurant. Don't you pay for the meal?</p><p>I really appreciate if you could <strong>whitelist my website</strong>. Every resource on this website is free but ads are the only means I get paid for the hard work. I promise that they are <strong>not annoying</strong>.</p><img alt='whitelist' src='/img/whitelist.png'><p>To read the article, refresh the page once you whitelist.</p>")},
 2000)};</script>
