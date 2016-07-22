@@ -51,6 +51,12 @@ I suggest you to check the [PageSpeed Insights](https://developers.google.com/sp
 
 {% highlight html %}
 
+<noscript>
+      <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+      <link rel="stylesheet" type="text/css" href="/font-awesome/css/font-awesome.min.css"/>
+</noscript>
+
+
 <script>
     (function() {
         var font = document.createElement('link'); 
@@ -72,8 +78,8 @@ I suggest you to check the [PageSpeed Insights](https://developers.google.com/sp
 
 The above code loads two CSS files. One is local ```main.css``` and the other is remote ```font-awesome.min.css```. You can make use of this code and change it accordingly. Make sure you edit the path properly.
 
+Keep contents within ``<noscript>`` tag in the head file. This will be loaded only of the website is loaded in a browser which doesn't run any script or with a **noscript** plugin.
 
-If you observe the script tag carefully, I have added ```defer``` attribute to it. This will load this script at the very end. You can change this to ```async``` if you want it to load along with the content. Test it out and see which one works best for you.
 
 ## Problems I faced while lazy loading css
 
