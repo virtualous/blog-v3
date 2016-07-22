@@ -247,11 +247,13 @@ I'm using some CSS to give it a nice look.
     display: inline-block;
     padding: 5px;
     opacity: 0.8;
-    &:hover{
-        opacity: 1;    
-    }
-
 }
+
+.rel hover {
+     opacity: 1;    
+}
+
+
 
 {% endhighlight %}
 
