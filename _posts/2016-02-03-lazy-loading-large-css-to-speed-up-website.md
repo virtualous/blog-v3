@@ -47,21 +47,25 @@ Another very good tool to analyze website loading time is [GT Metrix](https://gt
 
 This is possible if I declare my link tag at the end of the document. But it is advised by w3c to place link tags only in the head section. So I'm using a script to place the link tag( linking css) in the head section.
 
+I suggest you to check the [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/){:rel='nofollow'}{:target="_blank"} before and after implementing this. You sure will notice the difference.
+
 {% highlight html %}
 
-<script defer>
-var cb = function() {
-var l = document.createElement('link'); l.rel = 'stylesheet';
-var m = document.createElement('link'); m.rel = 'stylesheet';
-l.href = '/css/main.css';
-m.href = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
-var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-var i = document.getElementsByTagName('head')[0]; i.parentNode.insertBefore(m, i);
-};
-var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-webkitRequestAnimationFrame || msRequestAnimationFrame;
-if (raf) raf(cb);
-else window.addEventListener('load', cb);
+<script>
+    (function() {
+        var font = document.createElement('link'); 
+        var font2 = document.createElement('link'); 
+        font.type = 'text/css'; 
+        font2.type = 'text/css'; 
+        font.rel = 'stylesheet';
+        font2.rel = 'stylesheet';
+        font.href = '/css/main.css';
+        font2.href = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
+        var s = document.getElementsByTagName('link')[0]; 
+        var t = document.getElementsByTagName('link')[0]; 
+        s.parentNode.insertBefore(font, s);
+        t.parentNode.insertBefore(font2, t);
+      })();
 </script>
 
 {% endhighlight %}
