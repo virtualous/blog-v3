@@ -7,6 +7,7 @@ layout: default
     </a>
 </div>
 
+
  <div id="mainbox">
      {% for post in paginator.posts %} 
        <a class="post-link-index" href="{{ post.url | prepend: site.baseurl }}">
@@ -24,6 +25,8 @@ layout: default
      </a>
       {% endfor %}   
     </div>
+
+
 
 {% if paginator.total_pages > 1 %}
 <div class="pagination">

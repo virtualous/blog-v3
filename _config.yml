@@ -25,7 +25,7 @@ super-proxy: https://rugged-sunbeam-127917.appspot.com/query?id=ahdzfnJ1Z2dlZC1z
 # Build settings
 #baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
-#source: .
+source: .
 destination: ./_site
 permalink: /:title/
 paginate: 6

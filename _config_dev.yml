@@ -10,7 +10,14 @@
 url: 		'http://localhost:4000'
 baseurl: 	''
 
-
+ignore:
+   - _jekyll-themes
+   - thank-you
+   - data
+   - about
+   - redirect
+   - svg
+   - font-awesome
 sass:
   # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
   style: :expanded
@@ -27,3 +34,4 @@ analytics: 'no'
 ad: 'no'
 disqus: 'no'
 sumo: 'no'
+limit: 'yes'
