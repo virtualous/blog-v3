@@ -32,7 +32,7 @@ This is the by-product of being heavy. More the code slower the website. WordPre
 
 
 ## 3. Difficulty in writing Posts
-If you have written posts on WordPress then you know what I'm talking about. It almost always is online. There are offline apps to write blogs but then you will have to test it online. It is not a big deal. Actually, WordPress has image drag and drop option which os so much easier than Jekyll. But Jekyll stands out because of Markdown support by default. Editing in markdown is addictive!
+If you have written posts on WordPress then you know what I'm talking about. It almost always is online. There are offline apps to write blogs but then you will have to test it online. It is not a big deal. Actually, WordPress has image drag and drop option which is so much easier than Jekyll. But Jekyll stands out because of Markdown support by default. Editing in markdown is addictive!
 
 ## 4. Hosting cost
 WordPress needs a hosting which supports ``php`` and ``mySQL``. So, it is comparatively costly to host. Jekyll being static can be hosted for cheap on static file hosting providers or for free on Github!
@@ -45,14 +45,16 @@ This is actually the key reason to migrate from WordPress. WordPress has a lot o
 
 **What's so good about Jekyll?**
 
-# Jekyll is
+# Jekyll
 
 ## 1. Simple
-Jekyll has no database! Jekyll runs nothing in the server. It just keeps files ready to be served. Jekyll is really simple once you understand the basic structure and functions. It supports markdown for posts and pages. It uses the famous **Liquid Syntax** for condition logic and other functionalities which are human readable way of coding! I think this way of coding is very comprehensive even to a non-coder.
+Jekyll has no database! Jekyll runs nothing in the server. It just keeps files ready to be served. Jekyll is really simple once you understand the basic structure and functions. It supports markdown for posts and pages. It uses the famous **Liquid Syntax** by shopify for condition logic and other functionalities which are human readable way of coding! I think this way of coding is very comprehensive even to a non-coder.
 
 
 ## 2. Light, fast and secure
-Since Jekyll is light by default, it is fast. The community is growing and creating many Jekyll themes and plugins. Since it is a static site, it is almost unhackable!
+Since Jekyll is light by default, it is fast. If you want to see the difference then take a Jekyll site (take this site for example) and a WordPress site and compare them on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/){: target="_blank" rel="nofollow"}. Brad has a good comparision [here](https://bradonomics.com/jekyll-wordpress-speed/){: target="_blank" rel="nofollow"}.
+
+Having no database is kind of good when we are looking at security. **Static** sites are way more secure than **Dynamic** ones or almost unhackable.
 
 ## 3. You are in control!
 You are responsible for even a single extra space added to the code! So you have the complete control of the website or blog. This also means that you can easily minify, compress all the assets as you like.
