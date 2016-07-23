@@ -14,15 +14,44 @@
       </a>
 
       <div class="trigger">
+       
+        {% if page.url == '/about/' %}
+         <a class="page-link about" style="border-bottom: 4px solid #3498db" href="/about/">About</a>
+        {% else %}
+         <a class="page-link about" href="/about/">About</a>
+        {% endif %} 
+                
+        {% if page.url == '/archive/' %}
+          <a class="page-link archive" style="border-bottom: 4px solid #40d47e" href="/archive/">Archive</a>
+        {% else %} 
+          <a class="page-link archive" href="/archive/">Archive</a>
+        {% endif %} 
+          
+          
+        {% if page.url == '/contact/' %}
+         <a class="page-link contact" style="border-bottom: 4px solid #f1c40f" href="/contact/">Contact</a>
+        {% else %} 
+         <a class="page-link contact" href="/contact/">Contact</a>
+        {% endif %}
+        
+<a class="page-link pricing" target="_blank" href="http://price.webjeda.com/"><small>Pricing</small></a>
+                
+        {% if page.url == '/jekyll-themes/' %}
+         <a class="page-link themes" style="border-bottom: 2px solid #9b59b6" target="_blank" href="/jekyll-themes/"><small>Themes</small></a>
+        {% else %} 
+         <a class="page-link sitemap" target="_blank" href="/jekyll-themes/"><small>Themes</small></a>
+        {% endif %}
+         
+<a class="page-link subscribe" href="http://eepurl.com/bZdvSP" onclick="window.open(this.href, 'mywin',
+          'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><small>Subscribe</small></a>         
+         
 
-                  <a class="page-link about" href="/about/">About</a>
-                  <a class="page-link archive" href="/archive/">Archive</a>
-                  <a class="page-link contact" href="/contact/">Contact</a>
-                  <a class="page-link pricing" target="_blank" href="http://price.webjeda.com/"><small>Pricing</small></a>
-                  <a class="page-link sitemap" target="_blank" href="/jekyll-themes/"><small>Themes</small></a>
-                  <a class="page-link subscribe" href="http://eepurl.com/bZdvSP" onclick="window.open(this.href, 'mywin',
-                  'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><small>Subscribe</small></a>
-                  <a class="page-link search" href="/search/"><small>Search</small></a>
+         {% if page.url == '/search/' %}
+          <a class="page-link search" style="border-bottom: 2px solid #e74c3c" href="/search/"><small>Search</small></a>
+         {% else %}    
+          <a class="page-link search" href="/search/"><small>Search</small></a>
+         {% endif %}
+
       </div>
 
     </nav>
