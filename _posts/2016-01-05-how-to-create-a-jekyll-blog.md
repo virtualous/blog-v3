@@ -145,13 +145,13 @@ Open the file to see what is the **baseurl** configured. Usually it is **/emeral
 If (only if) you have renamed the repository name to something like **blog** or **app**, change the baseurl as shown below.
 {: .clear}
 
-```baseurl:    /blog/```
+```baseurl:    /blog```
 
-```baseurl:    /app/```
+```baseurl:    /app```
 
 Your blog will show up in the particular website
 
-``` https://github.username/blog/ ```  or  ``` https://github.username/something/ ```
+```https://github.username/blog```  or  ```https://github.username/something```
 
 So that's all there is to set up a new Jekyll blog. Some things like **CNAME** and **baseurl** may vary from theme to theme. But once you have a good knowledge of why they are used, you can configure them as you like.
 
