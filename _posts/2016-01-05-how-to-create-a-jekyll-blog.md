@@ -186,7 +186,7 @@ permalink: /create-jekyll-blog/
 ---
 {% endhighlight %}
 
-If you want to start writing posts then read: [How to edit Jekyll posts](/an-easy-way-to-edit-posts-in-jekyll/)
+If you want to start writing posts then read: [How to edit Jekyll posts](/edit-posts-jekyll/){:target="_blank"}
 
 This is how we host a project website or blog. In github, we have two types of hosting - **User Pages** and **Project Pages**. The method described above is Project Pages.
 
