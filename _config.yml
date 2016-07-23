@@ -31,7 +31,8 @@ permalink: /:title/
 paginate: 6
 paginate_path: /page:num/
 highlighter: rouge
-      
+include: ["_pages"]
+
 sass:
     style: compressed
 
