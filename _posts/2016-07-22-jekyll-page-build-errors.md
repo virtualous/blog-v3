@@ -15,19 +15,19 @@ permalink: /page-build-error/
 
 <a target="_blank" rel="nofollow" href='http://www.freepik.com/free-vector/building-a-city-illustration-in-flat-design_899114.htm'>Designed by Freepik</a>
 
-This post is a summary of years of my experience using Jekyll and Github Pages. I have seen too many errors in those years. I had to face one just yesterday. I thought maybe others are facing this kind if issues as well. So I'm writing this article on how to deal with it.
+This post is a summary of years of my experience using Jekyll and Github Pages. I have seen too many errors in these years. I had to face one just yesterday. I thought maybe others are facing this kind if issues as well. So I'm writing this article on how to deal with it.
 
 ## Why page build errors happen?
-Page build error happens for a number of reasons. A missing HTML tag, missing CSS curly brackets, missing endfor or endif liquid syntax, markdown syntax error and more.
+Page build error happens for a number of reasons. A missing HTML tag, missing CSS curly brackets, missing endfor or endif liquid syntax, markdown syntax error and sometimes even for using a tab instead of space in _config.yml file!
 
-Many times page build error happens when you push a new post. Sometimes you change the design of your blog nd suddenly page build error email shows up in your inbox or sometimes page build error happens just after a simple change and you have no idea what went wrong.
+Many times page build error happens when you push a new post. Sometimes you change the design of your blog and suddenly page build error email shows up in your inbox and sometimes page build error happens just after a simple change and you have no idea what went wrong.
 
 {% include adsense-inside-post.html %}
 
 ## The first thing to do when an error happens.
-There is nothing to panic about page build error because your site will retain its last push but will not allow any more change to happen until you solve the error.
+There is nothing to panic over a **page build error** because your site will retain its last push but will not allow any more change to happen until you solve the error.
 
-This is where people mess up things. They assume may be the last commit was the reason and they reset the branch to the previous commit. This will solve the problem if your last commit had error but what if your last one isn't the culprit?!
+This is where people mess things up. They assume may be the last commit was the reason and they reset the branch to the previous commit. This will solve the problem if your last commit had error but what if your last one isn't the culprit?!
 
 What if you are using something that is deprecated? So in such cases, it is a little hard to figure out what went wrong. But do not try to change too many things like I did one time which caused this downtime.
 
@@ -38,7 +38,90 @@ Usually, Github sends you an email when page build error happens. Most of the ti
 
 ![Jekyll page build error](/images/jekyll-page-build-error-screenshot.PNG){: .noborder }
 
-If the email does not specify the error then you are on your own! This is what I received last time. It doesn't have much information. 
+I'm posting some of the emails I have received over the years
+
+Markdown syntax error:
+
+{% highlight html %}{% raw %}
+The page build failed with the following error:
+
+The file `_posts/2012-02-06-whats-jekyll.md/#excerpt` contains syntax errors. For more information, see https://help.github.com/articles/page-build-failed-markdown-errors.
+
+If you have any questions please contact us at https://github.com/contact.
+{% endraw %}{% endhighlight %}
+
+CSS error:
+
+{% highlight html %}{% raw %}
+The page build failed with the following error:
+
+The file `style.scss` contains syntax errors. For more information, see https://help.github.com/articles/page-build-failed-markdown-errors.
+
+If you have any questions please contact us at https://github.com/contact.
+{% endraw %}{% endhighlight %}
+
+
+Liquid syntax error:
+{% highlight html %}{% raw %}
+The page build failed with the following error:
+
+The tag `{%` in `_posts/2014-10-13-CCNA.md` was not properly closed with `%}`. For more information, see https://help.github.com/articles/page-build-failed-tag-not-properly-terminated.
+
+If you have any questions please contact us at https://github.com/contact.
+{% endraw %}{% endhighlight %}
+
+
+Symlink error:
+{% highlight html %}{% raw %}
+The page build failed with the following error:
+
+A file was included in `_layouts/post.html` that is a symlink or does not exist in your `_includes` directory. For more information, see https://help.github.com/articles/page-build-failed-file-is-a-symlink.
+
+If you have any questions you can contact us by replying to this email.
+{% endraw %}{% endhighlight %}
+
+Config error after Jekyll 3.0 update:
+{% highlight html %}{% raw %}
+The page build failed with the following error:
+
+You have an error on line 24 of your `_config.yml` file. For more information, see https://help.github.com/articles/page-build-failed-config-file-error.
+
+GitHub Pages was recently upgraded to Jekyll 3.0. It may help to confirm you're using the correct dependencies:
+
+  https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+
+If you have any questions you can contact us by replying to this email.
+{% endraw %}{% endhighlight %}
+
+
+If tag error:
+
+{% highlight html %}{% raw %}
+The page build failed with the following error:
+
+The tag `if` on line 15 in `_includes/head.html,` was not properly closed. For more information, see https://help.github.com/articles/page-build-failed-tag-not-properly-closed.
+{% endraw %}{% endhighlight %}
+
+
+
+Syntax highlighter error:
+{% highlight html %}{% raw %}
+The page build completed successfully, but returned the following warning:
+
+You are attempting to use the 'pygments' highlighter, which is currently unsupported on GitHub Pages. Your site will use 'rouge' for highlighting instead. To suppress this warning, change the 'highlighter' value to 'rouge' in your '_config.yml' and ensure the 'pygments' key is unset. For more information, see https://help.github.com/articles/page-build-failed-config-file-error/#fixing-highlighting-errors.
+
+For information on troubleshooting Jekyll see:
+
+  https://help.github.com/articles/troubleshooting-jekyll-builds
+
+If you have any questions you can contact us by replying to this email.
+{% endraw %}{% endhighlight %}
+
+
+
+Finally the most frustrating error,
+
+Generic Jekyll build failures:
 
 ```
 The page build failed with the following error:
@@ -50,8 +133,14 @@ For information on troubleshooting Jekyll see:
   https://help.github.com/articles/troubleshooting-jekyll-builds
 
 If you have any questions you can contact us by replying to this email.
+
 ```
-I thought it was because I pushed a new post. But, even after removing that post, the error existed. While pushing that article, I also changed few design elements. I changed all of them back to normal, but there was no success.
+
+
+If the email does not specify the error then you are on your own! This is what I received last time. It doesn't have much information. 
+
+
+I thought it was because I pushed a new post. But even after removing that post, the error existed. While pushing that article, I also changed few design elements. I changed all of them back to normal, but there was no success.
 
 ## Initial check for page build error
  **Step 1:**
