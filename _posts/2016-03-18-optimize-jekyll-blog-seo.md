@@ -17,14 +17,8 @@ permalink: /optimize-jekyll-seo/
 
 
 
-
-
-
-
-
 ## Why SEO for Jekyll?
 SEO is the only way through which you can get organic traffic. Organic traffic is better than paid traffic because in organic traffic the user is really interested in the service you are offering.
-
 
 
 I used WordPress for a long time. If you ask me which one among WordPress and Jekyll is good for SEO, I would shout out WordPress without a pause. 
@@ -76,7 +70,17 @@ I have given some of the important parameters (among around 200 of them) your Je
 
 The list is big, so is the article! But follow these and I can assure you that your blog will be 60% optimized for SEO already. The rest depends on your efforts on content creation, link building , marketing etc.,
 
-Let's implement one by one in Jekyll.
+
+<div class="note">
+    <h3>Update</h3>
+    <p>
+    Most of these can be implemented by using tag called {% raw %}{% seo %}{% endraw %} in the <code>head</code> section. This requires to add a gem in your <strong>_config.yml</strong> like this <code>gems: [jekyll-paginate, jekyll-seo-tag]</code>. I'm assuming that you are using paginate gem also.  
+    </p>
+</div>
+
+This gem will add almost all the tags required for SEO. You can check it out [here](https://github.com/jekyll/jekyll-seo-tag){:rel='nofollow'}{:target="_blank"}. If you want to implement all the tags on your own, then keep reading.
+
+Let's implement head tags one by one in Jekyll.
 
 ## 1. Title and Description
 
