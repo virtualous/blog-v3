@@ -1,5 +1,6 @@
 ---
 title: Slides
+date: 2016-07-02
 layout: post
 img: slide-jekyll-theme-thumb.png
 desc: Webjeda slides is built using revealjs. The idea is to keep all the slideshows in one place as posts. All your presentations can be accessed from one place!
@@ -33,6 +34,8 @@ You have to create a new ``gh-pages`` branch using the master branch. Go back to
 ![create gh-pages branch]({{site.baseurl}}/images/create-gh-pages-branch.JPG){: style="border: 1px solid #eee" }
 
 Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
+
+{% include adsense-inside-post.html %}
 
 This process will host the theme as a **Project Page**. You can also download the files for local development. 
 

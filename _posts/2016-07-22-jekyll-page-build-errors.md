@@ -20,6 +20,9 @@ This post is a summary of years of my experience using Jekyll and Github Pages. 
 ## Why page build errors happen?
 Page build error happens for a number of reasons. A missing HTML tag, missing CSS curly brackets, missing endfor or endif liquid syntax, markdown syntax error and sometimes even for using a tab instead of space in _config.yml file!
 
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
 Many times page build error happens when you push a new post. Sometimes you change the design of your blog and suddenly page build error email shows up in your inbox and sometimes page build error happens just after a simple change and you have no idea what went wrong.
 
 {% include adsense-inside-post.html %}

@@ -6,7 +6,7 @@ permalink: /jekyll-themes/
  
 
 <div id="mainbox">
-     {% for jekyll-themes in site.jekyll-themes %}
+     {% for jekyll-themes in site.jekyll-themes reversed  %}
        <a class="post-link-index" href="{{ jekyll-themes.url | prepend: site.baseurl }}">
           <div class="card">
                 <img alt="{{ jekyll-themes.title }}" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs/{{ jekyll-themes.img }}" width="300" height="auto" />

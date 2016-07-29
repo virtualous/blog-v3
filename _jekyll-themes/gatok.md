@@ -1,5 +1,6 @@
 ---
 title: Gatok
+date: 2016-07-16
 layout: post
 img: webjeda-gatok-jekyll-theme-thumbnail.png
 desc: Webjeda gatok is a Bootstrap based responsive jekyll theme. It features a 3d navigation bar. 
@@ -27,6 +28,8 @@ You have to create a new ``gh-pages`` branch using the master branch. Go back to
 ![create gh-pages branch](http://blog.webjeda.com/images/create-gh-pages-branch.JPG)
 
 Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
+
+{% include adsense-inside-post.html %}
 
 This process will host the theme as a **Project Page**. You can also download the files for local development. 
 

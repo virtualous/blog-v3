@@ -1,5 +1,6 @@
 ---
 title: Sidebar
+date: 2016-05-07
 layout: post
 img: webjeda-sidebar-jekyll-theme-screen.png
 desc: Webjeda Sidebar is an elegant theme which offers a nice toggleable sidebar. The theme stands out in its features like changable color scheme and pre-installed sharebar, analytics and disqus. It is suitable for all kinds of blogging.
@@ -23,6 +24,8 @@ You have to create a new ``gh-pages`` branch using the master branch. Go back to
 ![create gh-pages branch]({{site.baseurl}}/images/create-gh-pages-branch.JPG)
 
 Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
+
+{% include adsense-inside-post.html %}
 
 This process will host the theme as a **Project Page**. You can also download the files for local development. 
 

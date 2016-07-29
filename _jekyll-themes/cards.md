@@ -1,6 +1,7 @@
 ---
 title: Cards
 layout: post
+date: 2016-06-07
 img: webjeda-cards-jekyll-theme.png
 desc: Webjeda cards is a bootstrap based minimal Jekyll theme. It is suitable for all kinds of blogs especially image based blogs. It features a sidebar inside posts.
 link: https://webjeda.com/cards/
@@ -27,6 +28,8 @@ You have to create a new ``gh-pages`` branch using the master branch. Go back to
 ![create gh-pages branch](/images/create-gh-pages-branch.JPG)
 
 Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
+
+{% include adsense-inside-post.html %}
 
 This process will host the theme as a **Project Page**. You can also download the files for local development. 
 
