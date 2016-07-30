@@ -3,7 +3,7 @@ title: Sync Files and Folders with Github Pages
 desc: Uploading files and folders to github repo was hard. Now, with this method you can sync files and folders to a github repository efficiently. In this tutorial I'm uploading a complete website into Github Pages.
 keywords: upload folders to github, sync files and folders with github
 author: sharathdt
-tags: Github-Pages Web-Design Github
+tags: Github-Pages Web-Design
 image: sync-local-folders-with-github.png
 layout: post
 permalink: /sync-files-folders-github/
