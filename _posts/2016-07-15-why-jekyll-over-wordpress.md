@@ -2,7 +2,7 @@
 title: Why did I choose Jekyll over WordPress?!
 desc: Jekyll will be taking over a significant share among blogging platforms. I chose a simple static CMS - Jekyll over world's most famous CMS - WordPress! There are reasons why I made this choice and I have tried to put them before you.
 author: sharathdt
-tags: Jekyll
+tags: Opinion Jekyll
 image: why-jekyll-over-wordpress.png
 layout: post
 ---
