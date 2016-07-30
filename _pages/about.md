@@ -15,11 +15,11 @@ adallow: 0
 {: .clear}
 My name is Sharath and I'm the author of this blog. I had no plans to turn this passion for web designing into a business. But when you love what you do, why not do it for living?! 
 
-I have created this blog to help web-designers to get started in the right way. Most of my content is on Jekyll blogging platform which can be used as a website builder!
+I have created this blog to help **web designers** to get started in the right way. Most of my content is on **Jekyll** blogging platform which can be used as a **website builder**!
 
-The first thing you notice on visiting my website is that it is minimal. I believe more decorations lead to distractions. So you don't see any bells and rings - only content. The second thing you notice is that it is fast. Because of constant optimization and again because of no 'bells and rings'.
+The first thing you notice on visiting my website is that it is **minimal**. I believe more decorations lead to distractions. So you don't see any bells and rings - only content. The second thing you notice is that it is **fast**. Because of constant optimization and again because of no 'bells and rings'.
 
-As a web designer, one has to give attention to appearance, performance, and accessibility. Which involves good looking template, website loading speed and ranking on search engines. I have discussed these aspects extensively in this blog.
+As a web designer, one has to give attention to **appearance**, **performance**, and **accessibility** which involves good looking template, website loading speed and ranking on search engines etc. I have discussed these aspects extensively in this blog.
 
 I write the things I have tried. That takes a while to research, test, and test again on other platforms. Writing a tech article which deals with coding isn't easy. It involves a lot of hard work. How do I get paid for this? I run Adsense on this blog.
 
@@ -72,7 +72,7 @@ If you are looking for a modern, fast-loading, visually appealing website, then 
 
 <pre>
 <h2>2016</h2>
-20th July - Added realted posts and decreased layout width a little bit.
+20th July - Added related posts and decreased layout width a little bit.
 
 3rd June - Added 'disqus on request' button.
 
