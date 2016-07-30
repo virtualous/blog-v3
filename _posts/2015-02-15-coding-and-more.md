@@ -3,7 +3,7 @@ title: Coding and more on Github and Github Pages
 desc: I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with topics like 'hosting websites on Github' 'how to use github' 'github web hosting' etc.,
 author: sharathdt
 keywords: github pages tutorial youtube
-tags: Github-Pages
+tags: Opinion Github-Pages
 image: webjeda-channel-art.jpg
 layout: post
 ---

@@ -3,7 +3,7 @@ title: Adding Top Bar to Websites
 desc: Top bars are beautiful looking lines at the top of a website. A colored top bar would not do any harm. Instead, it increases the beauty of your website (if used correctly). Read to know how I have implemented it in my websites.
 keywords: top bar, website top line, top border of website, top colored line in websites
 author: sharathdt
-tags: Github-Pages Web-Design
+tags: Web-Design Github-Pages 
 image: top-bar-on-websites.png
 layout: post
 permalink: /top-bar-website/
