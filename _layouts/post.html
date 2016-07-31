@@ -6,7 +6,7 @@ layout: default
 <div class="page-content">
     <br />
                  {% include adsense-pt.html %} 
-    <div class="line-by adsense adsbygoogle">
+    <div class="line-by">
         <article itemscope itemtype="http://schema.org/TechArticle"  id="post-page" >
 
             <h2 itemprop="headline" id="post-title">{{ page.title }}</h2>
@@ -39,14 +39,12 @@ layout: default
    
     </div>
     
-<div class="error">Using an ad-block may hide the content!</div>
-
              
 </div>
               
 
 {% if site.ad == 'no' %}{% else %}
- <script>window.onload=function(){setTimeout(function(){var a=document.querySelector("ins.adsbygoogle");a&&0==a.innerHTML.replace(/\s/g,"").length&&(a.style.cssText="display:block !important; visibility:visible !important;text-decoration:none !important;font-family: 'wj';font-size: 1em; margin-top: 2em",a.innerHTML="<p>I notice that you're using an <strong>ad-blocker</strong>. That's cool, you want a fast and clean experience but let's imagine you eat at a restaurant. Don't you pay for the meal?</p><p>I really appreciate if you could <strong>whitelist my website</strong>. Every resource on this website is free but ads are the only means I get paid for the hard work. I promise that they are <strong>not annoying</strong>.</p><img alt='whitelist' src='/img/whitelist.png'><p>To read the article, refresh the page once you whitelist.</p>")},
+ <script>window.onload=function(){setTimeout(function(){var a=document.querySelector("ins.adsbygoogle");a&&0==a.innerHTML.replace(/\s/g,"").length&&(a.style.cssText="display:block !important; visibility:visible !important;text-decoration:none !important;font-family: 'wj';font-size: 1em; margin-top: 2em",a.innerHTML="<p>I notice that you're using an <strong>ad-blocker</strong>. That's cool, you want a fast and clean experience but let's imagine you eat at a restaurant. Don't you pay for the meal?</p><p>I really appreciate if you could <strong>whitelist my website</strong>. Every resource on this website is free but ads are the only means I get paid for the hard work. I promise that they are <strong>not annoying</strong>.</p><img alt='whitelist' src='/img/whitelist.png'>")},
 2000)};</script>
  {% endif %}
               

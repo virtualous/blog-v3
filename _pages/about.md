@@ -23,9 +23,7 @@ As a web designer, one has to give attention to **appearance**, **performance**,
 
 I write the things I have tried. That takes a while to research, test, and test again on other platforms. Writing a tech article which deals with coding isn't easy. It involves a lot of hard work. How do I get paid for this? I run Adsense on this blog.
 
-I have made my website such that it doesn't show the content if you are using an adblocker. That might upset many new visitors. But I understand. I'm not against using adblocker because there are websites with atrocious ads that pop up all the time you are browsing it. I hate that too.
-
-But all the stuff on my blog is free. All I ask my users is to whitelist my domain. That's the only way I have monetized it. I promise the readers that there will not be any annoying ads.
+All the stuff on my blog is free. All I ask my users is to whitelist my domain. That's the only way I have monetized it. I promise the readers that there will not be any annoying ads.
 
 
 Most of these articles are also in video format. Check out my <a target="_blank" href="https://www.youtube.com/channel/UCbOO7d0vVo0kIrkd7m32irg" ><i class="fa fa-youtube-square"></i>&nbsp;YouTube channel</a>

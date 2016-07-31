@@ -1,0 +1,13 @@
+//if no JS enabled
+
+<noscript>
+            <div style="position: fixed; top: 0px; left: 0px; z-index: 3000; 
+                        height: 100%; width: 100%; background-color: #FFFFFF">
+                <p style="position:absolute; top: 50%; left:30%">JavaScript is not enabled on your browser.</p>
+            </div>
+    </noscript>
+    
+    
+// if adblock
+
+<div class="error">Using an ad-block may hide the content!</div>
