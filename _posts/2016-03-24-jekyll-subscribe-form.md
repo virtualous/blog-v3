@@ -32,6 +32,8 @@ This is one of those things I always wanted in Jekyll but did not know how to do
 
 It was a painful experience. FormSpree requires verification. This verification is URL specific. If the form is on all the pages of the website then I have to verify an email for every single page! FormSpree is good if you are using it on one specific page but not for all pages. What I eventually found was that SimpleForm can be used to make a contact form which works on all pages! Which means it can be used as a subscribe form.
 
+There are two types of subscribe forms described here. One is just an email collector and another one is a fully automatic mailchimp subscribe form for Jekyll. If you are looking for mailchimp form then skip to end.
+
 What I'm showing here is an email collector. So it just collects users' emails. I think that is what a basic subscriber form does. You can also setup an auto-reply option. Auto-reply can help if you are offering an e-book for a subscription. I haven't tried it yet but it should work.
 
 But before collecting emails you should have an email id. You can use any email id but it is a good idea if you use a domain email. If you don't have one, then get a [free domain email using ZOHO](/free-domain-email-zoho/){:target="_blank"}.
@@ -199,8 +201,8 @@ I have a working form as well!
 <p></p>
 Once you enter the details, hit subscribe key; You should receive an email right then. Actually this is the form I'm using in my website. You will get the same form when you click on **Subscribe** button on the menu bar. The form may look different but it does the same job as this form.
 
+I hope that similar kind of form can be embedded to a jekyll site using Aweber as well. I haven't used Aweber but if anyone has used it then feel free to give your inputs.
 
-
-I hope that covers many types of subscription forms available for Jekyll. Let me know which one you implemented and for what reason. If you couldn't get this working then let me know in the comment section.
+I hope that covers types subscription forms available for Jekyll. Let me know which one you have implemented and for what reason. If you couldn't get this working then let me know in the comment section.
 
 Thanks for reading!
