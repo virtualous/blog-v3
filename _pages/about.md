@@ -26,13 +26,13 @@ I write the things I have tried. That takes a while to research, test, and test 
 All the stuff on my blog is free. All I ask my users is to whitelist my domain. That's the only way I have monetized it. I promise the readers that there will not be any annoying ads.
 
 
-Most of these articles are also in video format. Check out my <a target="_blank" href="https://www.youtube.com/channel/UCbOO7d0vVo0kIrkd7m32irg" ><i class="fa fa-youtube-square"></i>&nbsp;YouTube channel</a>
+Most of these articles are also in video format. Check out my <a target="_blank" href="{{site.youtube}}" ><i class="fa fa-youtube-square"></i>&nbsp;YouTube channel</a>
 
 **There are a number of ways to reach out to me. Here are a few.**
 
-For facebook notification on a new article you can like our <a target="_blank" href="https://www.facebook.com/webjeda" ><i class="fa fa-facebook-square"></i>&nbsp;facebook page</a>.
+For facebook notification on a new article you can like our <a target="_blank" href="{{site.facebook}}" ><i class="fa fa-facebook-square"></i>&nbsp;facebook page</a>.
 
-We are also on <a target="_blank" href="https://www.twitter.com/webjeda" ><i class="fa fa-twitter-square"></i>&nbsp;twitter!</a> and I heard Google Plus is no more but I still have a <a target="_blank" href="https://plus.google.com/b/111361987929035019038/?pageId=111361987929035019038" ><i class="fa fa-google-plus-square"></i>&nbsp;Google Page</a>
+We are also on <a target="_blank" href="{{site.twitter}}" ><i class="fa fa-twitter-square"></i>&nbsp;twitter!</a> and I heard Google Plus is no more but I still have a <a target="_blank" href="https://plus.google.com/b/111361987929035019038/?pageId=111361987929035019038" ><i class="fa fa-google-plus-square"></i>&nbsp;Google Page</a>
 
 Please feel free to ping me on whatsapp if you want a quick response
 **Whatsapp:** <a href="tel:+91 890 447 5972">+91 890 447 5972</a>
