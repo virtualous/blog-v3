@@ -201,6 +201,9 @@ I have a working form as well!
 <p></p>
 Once you enter the details, hit subscribe key; You should receive an email right then. Actually this is the form I'm using in my website. You will get the same form when you click on **Subscribe** button on the menu bar. The form may look different but it does the same job as this form.
 
+Watch a video tutorial instead
+<iframe class="video" src="https://www.youtube.com/embed/zhHY4tWpFz4?rel=0" frameborder="0" allowfullscreen></iframe>
+
 I hope that similar kind of form can be embedded to a jekyll site using Aweber as well. I haven't used Aweber but if anyone has used it then feel free to give your inputs.
 
 I hope that covers types subscription forms available for Jekyll. Let me know which one you have implemented and for what reason. If you couldn't get this working then let me know in the comment section.
