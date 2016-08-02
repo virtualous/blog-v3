@@ -10,7 +10,7 @@ layout: default
 
  <div id="mainbox">
      {% for post in paginator.posts %} 
-       <a itemprop="url" class="post-link-index" href="{{ post.url | prepend: site.baseurl }}">
+       <a class="post-link-index" href="{{ post.url | prepend: site.baseurl }}">
           <div itemscope itemtype="http://schema.org/TechArticle" class="card">
                 <img alt="{{ post.title }}" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs-small/{{ post.image }}" width="300" height="188" />
                 

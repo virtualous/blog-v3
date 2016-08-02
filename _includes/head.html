@@ -14,7 +14,7 @@
   </style>
 
 <title>{%if page.title %}{{ page.title }} - Webjeda Blog {% else %}{{ site.title }}{% endif %}</title>
-<meta itemprop="description" name="description" content="{% if page.desc %}{{ page.desc | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+<meta name="description" content="{% if page.desc %}{{ page.desc | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
