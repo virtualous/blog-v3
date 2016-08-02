@@ -10,15 +10,15 @@ layout: default
 
  <div id="mainbox">
      {% for post in paginator.posts %} 
-       <a class="post-link-index" href="{{ post.url | prepend: site.baseurl }}">
+       <a itemprop="url" class="post-link-index" href="{{ post.url | prepend: site.baseurl }}">
           <div itemscope itemtype="http://schema.org/TechArticle" class="card">
                 <img alt="{{ post.title }}" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs-small/{{ post.image }}" width="300" height="188" />
                 
                 
                 <div class="card-footer">
-                    <h6 class="post-index-title">{{ post.title }}</h6>
-                     <div class="home-tag" style="background-color: {% cycle '#e74c3c', '#1abc9c', '#e67e22', '#34495e', '#f1c40f', '#3498db', '#2ecc71', '#9b59b6' %}">{{ post.tags | first | strip }}</div>
-                    <p class="post-excerpt">{{ post.desc | truncate: 160 }}</p>
+                    <h6 itemprop="headline" class="post-index-title">{{ post.title }}</h6>
+                     <div itemprop="keywords" class="home-tag" style="background-color: {% cycle '#e74c3c', '#1abc9c', '#e67e22', '#34495e', '#f1c40f', '#3498db', '#2ecc71', '#9b59b6' %}">{{ post.tags | first | strip }}</div>
+                    <p itemprop="description" class="post-excerpt">{{ post.desc | truncate: 160 }}</p>
                </div>
            
         </div> 
@@ -64,7 +64,7 @@ layout: default
    "url": "http://blog.webjeda.com/",
    "potentialAction": {
      "@type": "SearchAction",
-     "target": "http://blog.webjeda.com/search/?q={search_term_string}",
+     "target": "https://blog.webjeda.com/search/?q={search_term_string}",
      "query-input": "required name=search_term_string"
    }
 }
