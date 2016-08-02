@@ -29,10 +29,10 @@ On August 06 2014 Google announced that [https will be considered for ranking si
 
 
 ## Why I'm not using SSL on this Jekyll blog?
-![Jekyll and GitHub pages ssl](/images/nallikayi-articles-github-pages-ssl.jpg)
+![Jekyll and GitHub pages https](/images/nallikayi-articles-github-pages-ssl.jpg)
 {: .right}
 
-** Update: I did not use SSL for some reasons that I have mentioned below. Currently I'm using SSL.**
+**Update: I did not use SSL for some reasons that I have mentioned below. Currently I'm using SSL.**
 
 I'm using SSL on [Nallikayi Articles](https://articles.nallikayi.com){:target="_blank"} but not on other websites. Why did I do so? If SSL is good for SEO, why didn't I use it on all my websites? Especially, why didn't I use it on this blog?! The reasons are as follows,
 
@@ -43,12 +43,12 @@ I use Adsense for monetizing this blog. If I were to secure this blog with SSL, 
 
 {% include adsense-inside-post.html %}
 
-Google detects whether your website has SSL certificate or not and serves ads accordingly. If I activate SSL in my Jekyll blog, Google will filter only https ads and serve it on my website. This way I may miss some high paying ads.
+Google detects whether your website has an SSL certificate or not and serves ads accordingly. If I activate SSL in my Jekyll blog, Google will filter only https ads and serve it on my website. This way I may miss some high paying ads.
 
 ### Performance
-Website loading speed is my main concern. I want it to be fast; really fast. Activating SSL would slow down my Jekyll blog a little due to TLS handshaking which is a process that the browser and server follow to decide how to communicate and create the secured connection.
+Website loading speed is my main concern. I want it to be fast; really fast. Activating SSL would slow down my Jekyll blog a little due to TLS handshaking which is a process that the browser and server follow to decide how to communicate and create a secured connection.
 
-Google also announced that they were using page load time as a factor in search engine rankings. SSL and page-load time conflict with each other. Anyway, the load time is a little more than what it used to be. So if speed is not your priority then you can always go ahead and use SSL.
+Google also announced that they were using page load time as a factor in search engine rankings. SSL and page-load time conflict with each other(a little bit). Anyway, the load time will be a little more than what it used to be. So if speed is not your priority then you can always go ahead and use SSL.
 
 
 <div class="warning">
@@ -72,7 +72,7 @@ If you are not using a custom domain name then you can use the **Enforce HTTPS**
 
 If you are using a custom doamin then this option will not be available. You have to skip to this [step](#ssl-on-custom-domain).
 
-If you want to do it from client side(not recommended) then use this JavaScript code at the top of your website to redirect to https. Change **username** to your GitHub username.
+If you want to do it from the client side(not recommended) then use this JavaScript code at the top of your website to redirect to https. Change **username** to your GitHub username.
 
 {% highlight js %}
 var host = "username.github.io";
@@ -93,7 +93,7 @@ for Jekyll, it should be
 <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 {% endraw %}{% endhighlight %}
 
-Make sure **url** is https in **_config.yml**. Also use ```enforce_ssl``` parameter.
+Make sure that the **url** is https in **_config.yml**. Also use ```enforce_ssl``` parameter.
 
 {% highlight yml %}
 url: https://username.github.io
@@ -170,7 +170,7 @@ Use canonical URL in the head section to let search engines know that you are us
 <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 {% endraw %}{% endhighlight %}
 
-Make sure **url** is https in **_config.yml** and use ```enforce_ssl``` parameter
+Make sure that the **url** is https in **_config.yml** and use ```enforce_ssl``` parameter
 
 {% highlight yml %}
 url: https://yoursite.com
@@ -178,14 +178,13 @@ enforce_ssl: yoursite.com
 {% endhighlight %}
 
 
-Flexible SSL is not the complete solution for security since it is provided by ClouFlare. If someone can hack into CloudFlare then they can steal information from your users! Since we are using it for SEO ranking, we are good.
-
-If you are looking for complete security then you can buy SSL certificate for your website.
-
 <div class="warning" id="warning-1">
 <h3>Warning</h3>
 <p>All the resources that are requested by a <strong>ssl</strong> activated website should also be secured. That is, if you request any file with a  <strong>http</strong> link then the green padlock will not appear. In order to avoid that use relative url. For example, instead of <code>http://webjeda.css</code> use <code>//webjeda.css</code></p>
 </div>
+
+## Conclusion
+Flexible SSL is not a complete solution for security since it is provided by ClouFlare. If someone can hack into CloudFlare then they can steal information from your users! Let's hope that doesn't happen. Since we are just using it for SEO ranking, we are good. If you are looking for complete security then you can buy SSL certificate for your website. It is good to buy SSL certificate if you are selling something on your website which has payment-gateway integrated.
 
 I hope that helped you set up SSL on your website. Ask any doubts you have through comments. Do not forget to subscribe.
 
