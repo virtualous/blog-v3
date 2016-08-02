@@ -25,12 +25,15 @@ SSL (Secure Socket Layer) basically provides a secure connection between the cli
 {:toc}
 
 
-On August 06 2014 Google announced that [https will be considered for ranking signal](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html){:rel='nofollow'}{:target="_blank"}. They took this measure to keep everybody safe over the web. So using SSL can improve your website ranking. And also, users will trust the product or service you provide on your website.
+On August 06 2014 Google announced that [https will be considered for ranking signal](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html){:rel='nofollow'}{:target="_blank"}. They took this measure to keep everybody safe over the web. So by using SSL you can improve your website ranking and your users will feel safe and trust the product or service you are providing.
 
 
 ## Why I'm not using SSL on this Jekyll blog?
 ![Jekyll and GitHub pages ssl](/images/nallikayi-articles-github-pages-ssl.jpg)
 {: .right}
+
+** Update: I did not use SSL for some reasons that I have mentioned below. Currently I'm using SSL.**
+
 I'm using SSL on [Nallikayi Articles](https://articles.nallikayi.com){:target="_blank"} but not on other websites. Why did I do so? If SSL is good for SEO, why didn't I use it on all my websites? Especially, why didn't I use it on this blog?! The reasons are as follows,
 
 
@@ -63,13 +66,20 @@ If your website or Jekyll blog URL is in the format ```username.github.io``` the
 If it works but you do not see a green padlock then the reason must be that your website is requesting something from a non-secure (http) server. Read [warning](#warning-1) to solve this.
 
 ### Enforce https
-Use this JavaScript code at the top of your website to redirect to https. Change **username** to your GitHub username.
+If you are not using a custom domain name then you can use the **Enforce HTTPS** option found in settings page. It redirects the website to https from server side which is better than doing it from client side.
+
+![Github Pages enforce https](/images/github-pages-enforce-https.png)
+
+If you are using a custom doamin then this option will not be available. You have to skip to this [step](#ssl-on-custom-domain).
+
+If you want to do it from client side(not recommended) then use this JavaScript code at the top of your website to redirect to https. Change **username** to your GitHub username.
 
 {% highlight js %}
 var host = "username.github.io";
 if ((host == window.location.host) && (window.location.protocol != "https:"))
     window.location.protocol = "https";
 {% endhighlight %}
+
 
 ### Change Canonical URL to https
 You should let search engines read your content only in https site. Use canonical URL in the head section.
@@ -130,10 +140,15 @@ You have to login to your domain registrar and add these custom name servers. On
 Now navigate to **Crypto** option in CloudFlare. You should see an option called **SSL**. In the drop-down menu select **Flexible**. This is all the changes we need to do in the server end.
 
 
-### Step 3: Changes to be made in the blog
+### Step 3: Changes to be made in CloudFlare
 {: .clear}
 
-As I mentioned earlier now your website is ready for SSL. Check again if the https link is working(all pages of the website). If not troubleshoot using the [warning](#warning-1).
+![cloudflare https redirect page rule jekyll ssl](/images/cloudflare-https-redirect-page-rule-jekyll-ssl.png)
+{: .right .half}
+Use **Page-rule** to redirect http to https. Use * symbol to create dynamic patterns that match many URLs.
+<div class="clear"></div>
+
+If you prefer to redirect in the website then use the below JavaScript code. I would recommend using CloudFlare Page-rule instead of this.
 
 Follow the enforcing procedure.
 
@@ -144,10 +159,9 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
    window.location.protocol = "https";
 {% endhighlight %}
 
+### Step 4: Changes to be made in the website
 
-![cloudflare https redirect page rule jekyll ssl](/images/cloudflare-https-redirect-page-rule-jekyll-ssl.jpg)
-{: .right .half}
-If you do not want to use JavaScript on your website then you can set page rules in CloudFlare so that it redirects your website to https.
+As I mentioned earlier now your website is ready for SSL. Check again if the https link is working(all pages of the website). If not troubleshoot using the [warning](#warning-1).
 
 
 Use canonical URL in the head section to let search engines know that you are using https. 
