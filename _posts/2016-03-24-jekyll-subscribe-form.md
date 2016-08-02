@@ -1,6 +1,6 @@
 ---
 title: How to create a subscribe form for Jekyll that actually works!?
-desc: Subscribe form for Jekyll is not readily available because forms usually work with php code to send emails. But with this method, we can add a subscribe form on any Jekyll blog which will works out of the box.
+desc: Subscribe form for Jekyll is not readily available because forms usually work with php code to send emails. But with this method, we can add a subscribe form on any Jekyll blog which will work out of the box.
 keywords: 
 author: sharathdt
 tags: Jekyll
