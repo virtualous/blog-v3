@@ -47,6 +47,15 @@ Website loading speed is my main concern. I want it to be fast; really fast. Act
 
 Google also announced that they were using page load time as a factor in search engine rankings. SSL and page-load time conflict with each other. Anyway, the load time is a little more than what it used to be. So if speed is not your priority then you can always go ahead and use SSL.
 
+
+<div class="warning">
+<h3>Update Aug 2016</h3>
+<p>After considering all the advantages and disadvantages of SSL, I'm going with secure SSL. Google is trying hard to push web developers to move to <code>https</code>. That makes sense because everyone wants their information to be safe on the internet.</p>
+</div>
+
+
+
+
 ## How to get SSL on Jekyll?
 
 If your website or Jekyll blog URL is in the format ```username.github.io``` then you can use https right away just by enforcing it. But before you do that, verify if ```https://username.github.io``` renders the same thing and you see a green padlock before the URL.

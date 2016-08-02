@@ -70,6 +70,8 @@ If you are looking for a modern, fast-loading, visually appealing website, then 
 
 <pre>
 <h2>2016</h2>
+2nd August - Moving to secure SSL. Now on, you will see a green padlock before my URL on browsers.
+
 20th July - Added related posts and decreased layout width a little bit.
 
 3rd June - Added 'disqus on request' button.
