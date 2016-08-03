@@ -256,6 +256,8 @@ Pagination used to be included in Jekyll but, after Jekyll 3.0 it is no more inc
   Pagination: ``gem install pagination``
     
 
+**3. Install Jekyll**
+
 Now your computer is ready to install Jekyll. Make a folder on your computer with any name you wish, say **Project**. 
 
 * Open the command line and navigate to the folder **Project**.
@@ -286,6 +288,7 @@ Now your computer is ready to install Jekyll. Make a folder on your computer wit
 ```
 
 
+**4. Serve Jekyll locally**
 
 * Enter ``cd new-jekyll-blog`` to navigate inside the Jekyll site.
 
