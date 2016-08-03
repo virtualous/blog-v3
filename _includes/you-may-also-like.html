@@ -7,7 +7,7 @@
              <a class="ymae" href="{{ jekyll-themes.url | prepend: site.baseurl }}">
                   <div class="rel">
                       <h5>{{ jekyll-themes.title }}</h5>
-                      <img width="100%" src="/thumbs/{{ jekyll-themes.img }}">
+                      <img alt="{{jekyll-themes.title | append:'jekyll theme'}}" width="100%" src="/thumbs/{{ jekyll-themes.img }}">
                   </div>
               </a>
         {% endif %}
@@ -47,7 +47,7 @@
           <a href="{{ site.baseurl }}{{ post.url }}">
               <div class="rel">
                   <h5>{{ post.title }}</h5>
-                  <img width="100%" src="/thumbs-small/{{post.image}}">
+                  <img alt="{{post.title}}" width="100%" src="/thumbs-small/{{post.image}}">
               </div>
           </a>
 
