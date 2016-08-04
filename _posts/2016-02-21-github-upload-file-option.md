@@ -3,7 +3,7 @@ title: Github Upload Option
 desc: For years Github users had a hard time uploading files to GitHub repositories but now GitHub has provided an option to upload files and folders directly into repositories! Jekyll bloggers are also happy with this update. Now they can write a complete blog post with media directly in a browser!
 keywords: upload files to github, github upload files folders, github drag and drop upload
 author: sharathdt
-tags: Github
+tags: Github-Pages
 image: upload-option-github.png
 layout: post
 permalink: /github-upload/
