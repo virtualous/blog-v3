@@ -58,7 +58,7 @@ Another thing I found very difficult was choosing the right tools for web develo
 
 I hope you are wondering why **Sublime text** is not included in the list. I used to prefer Sublime text over Brackets! But for my blog posts, I needed a plugin to count the words. It was easy installing it on Brackets. Moreover, Brackets has live preview option!  And also, in-line editing makes it better than any other text editor.
 
-I think Github Pages is faster than any other conventional web hosting method. But, Github cannot execute files in the server. So php files will not run in Github. But you are good to use HTML, CSS and JS. 
+Github Pages is comparably faster than conventional web hosting services for static websites. But, Github cannot execute files in the server. So php files will not run in Github. But you are good to use HTML, CSS and JS. 
 
 
 Jekyll static site generator is another boon to web designers to host their blogs or single page websites. I have created many blogs using Jekyll. Actually, this blog is completely generated using Jekyll! It is very stable. Uptime of the websites depends on Github Servers. As an established company, Github is always up. I have not faced any major issue so far. I think years ago my blogs were down for few seconds.
