@@ -777,3 +777,10 @@ a.btn {
 .mt2 {
     margin-top: 2em;
 }
+
+.table-cell{
+    display: table-cell;
+    @include media-query($on-palm) {
+        display: block;
+    }   
+}
