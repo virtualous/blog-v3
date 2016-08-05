@@ -22,11 +22,11 @@ I see a lot of blogs providing useful information on Github pages and Jekyll. Bu
 
 
 ## What is Github?
-Github is Version Control System. It keeps your data and tracks all the changes you make to it. If that is not sufficient to explain it then condider this example. Let's say there is a **box**. Initially you keep **lego blocks** in it. Then after some time you take the help of your friend and make a house out of those blocks and keep it back in the box and after several days you break the house and build a bridge out of it and keep it in the box.
+Github is Version Control System. It keeps your data and tracks all the changes you make to it. If that is not a sufficient explainayion then condider this example. Let's say there is a **box**. Initially you keep **lego blocks** in it. Then after some time you take the help of your friend and make a house out of those blocks and keep it back in the box and after several days you break the house and build a bridge out of it and keep it in the box.
 
 But at this point you realize that the house was nicer than this bridge. Thanks to **box** that it remembers the exact way how you built the house. So in no time you can get back to the house model. 
 
-Now, the box has several compartments in it. One of those is a **live** compartment. If you make a **Robot** out of your legos blocks and keep it inside the live compartment then the Robot gets life and starts to walk and do wierd stuff.
+Now, the box has several compartments in it. One of those is a **live** compartment. If you make a **Robot** out of your legos blocks and keep it inside the live compartment then the Robot gets to life and starts walking.
 
 The **box** is GitHub and the **live compartment** is Github Pages.
 
