@@ -52,7 +52,7 @@ Another thing I found very difficult was choosing the right tools for web develo
 
 [**Github Desktop**](https://desktop.github.com/){:rel='nofollow'} - to sync files with your repository.
 
-[**Chrome Browser**](https://www.google.com/chrome/){:rel='nofollow'} - for its 'inspect' feature and JavaScipt v8 engine.
+[**Chrome Browser**](https://www.google.com/chrome/){:rel='nofollow'} - for its 'inspect' feature and JavaScript v8 engine.
 
 [**w3schools**](www.w3schools.com/){:rel='nofollow'} - they are the best at teaching how to code.
 
