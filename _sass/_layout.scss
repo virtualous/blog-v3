@@ -284,3 +284,23 @@ a {
 
 
 
+
+.preface {
+    width: 80%;
+    margin: 20px auto;
+    @include media-query($on-palm) {
+        width: 100%;
+        margin: 0 auto;
+    }
+        
+}
+
+.precont {
+    background-color: $brand-color;
+    padding: 20px;
+    width: 45%;
+    @include media-query($on-palm) {
+            width: 90%;
+            margin: 0 auto;
+        }
+}
