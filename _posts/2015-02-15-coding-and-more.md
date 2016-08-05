@@ -20,7 +20,17 @@ While I was learning Github Pages, I used to go through YouTube videos. But ther
 
 I see a lot of blogs providing useful information on Github pages and Jekyll. But in my blogs, i want to provide step by step instructions for everything without missing a single point. This is what I expect from a blog or a documentation. So that is what I follow.
 
-Github is not known to many developers. They struggle to find a reliable hosting service and they may end up paying few bucks which is not necessary when you have Github Pages for the rescue. You can host your website in minutes for free!
+
+## What is Github?
+Github is Version Control System. It keeps your data and tracks all the changes you make to it. If that is not sufficient to explain it then condider this example. Let's say there is a **box**. Initially you keep **lego blocks** in it. Then after some time you take the help of your friend and make a house out of those blocks and keep it back in the box and after several days you break the house and build a bridge out of it and keep it in the box.
+
+But at this point you realize that the house was nicer than this bridge. Thanks to **box** that it remembers the exact way how you built the house. So in no time you can get back to the house model. 
+
+Now, the box has several compartments in it. One of those is a **live** compartment. If you make a **Robot** out of your legos blocks and keep it inside the live compartment then the Robot gets life and starts to walk and do wierd stuff.
+
+The **box** is GitHub and the **live compartment** is Github Pages.
+
+Many web developers are not familiar with Github. They struggle to find a reliable hosting service and they may end up paying few bucks which is not necessary when you have Github Pages for the rescue. You can host your website in minutes for free!
 
 Read my tutorial on [how to host a website on github.](https://blog.webjeda.com/how-to-create-and-host-a-website-on-github-pages/){:rel='dofollow'}
 and then [sync a complete website using this tutorial](http://blog.webjeda.com/how-to-sync-files-folders-with-github){:rel='dofollow'}.
