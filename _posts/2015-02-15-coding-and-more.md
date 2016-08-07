@@ -28,7 +28,7 @@ But at this point you realize that the house was nicer than this bridge. Thanks 
 
 Now, the box has several compartments in it. One of those is a **live** compartment. If you make a **Robot** out of your legos blocks and keep it inside the live compartment then the Robot gets to life and starts walking.
 
-The **box** is GitHub and the **live compartment** is Github Pages.
+The **box** is GitHub, the **live compartment** is Github Pages and legos is your code. When you put a website code (html, css, js) in Gihub Pages, website gets hosted!
 
 Many web developers are not familiar with Github. They struggle to find a reliable hosting service and they may end up paying few bucks which is not necessary when you have Github Pages for the rescue. You can host your website in minutes for free!
 

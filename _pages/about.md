@@ -61,8 +61,6 @@ If you are looking for a modern, fast-loading, visually appealing website, then 
 </div>
 <script type='text/javascript' src='/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
-<p>[User sitemap](/user-sitemap/)</p>
-
 **Disclaimer:** This website is under constant modification. If you find something isn't right then feel free to report.
 
 ## Major changes
