@@ -115,7 +115,7 @@ That's it. Now collect emails and make a list. I use MailChimp and I send an upd
 
 Here is a working example: <a href="http://redgadget.github.io/form-jekyll/" target="_blank" rel="nofollow">Sample Subscribe Form</a>
 
-I hope that helped. I'm was feed-burner for subscriptions. I have a post on [How to use Feedburner for subscriptions](/jekyll-subscribe-feedburner/){:target="_blank"}. Feedburner is free and pretty good for managing feeds and subscriptions.
+I hope that helped. I was using feed-burner for subscriptions. I have a post on [How to use Feedburner for subscriptions](/jekyll-subscribe-feedburner/){:target="_blank"}. Feedburner is a free and pretty good tool for managing feeds and subscriptions.
 
 ## Update 1 - MailChimp subscribe form on Jekyll
 
