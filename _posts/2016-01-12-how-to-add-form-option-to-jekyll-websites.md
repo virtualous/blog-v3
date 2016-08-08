@@ -1,5 +1,5 @@
 ---
-title: Create a Contact Form in Jekyll Website
+title: 2 Reliable ways to Create a Contact Form in Jekyll
 desc: Contact forms in Jekyll should be different from normal php forms because Jekyll doesn't support php. Jekyll blog is static, so we should use forms that work for static sites. Here is a simple form that works on any Jekyll blog.
 keywords: form in Jekyll, form in Jekyll blog, form in a static website, formspree
 author: sharathdt
@@ -24,7 +24,7 @@ When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. Wh
 {:toc}
 
 
-## why use a form?
+## why should we use a form?
 Form is a way to interact with the users. Providing personal emails and phone numbers can lead to receiving a lot of spam. This is the reason why no famous website includes their personal emain or phone number.
 
 Forms on the other hand are very useful in such cases where you do not want to give out your personal details. It is a better way to interact with users.
