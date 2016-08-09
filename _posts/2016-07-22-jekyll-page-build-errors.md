@@ -23,21 +23,21 @@ Page build error happens for a number of reasons. A missing HTML tag, missing CS
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
-Many times page build error happens when you push a new post. Sometimes you change the design of your blog and suddenly page build error email shows up in your inbox and sometimes page build error happens just after a simple change and you have no idea what went wrong.
+Usually, page build error happens when you push a new post or you change the design of your blog. Sometimes page build error happens just after a simple change and you have no idea what went wrong.
 
 {% include adsense-inside-post.html %}
 
 ## The first thing to do when an error happens.
 There is nothing to panic over a **page build error** because your site will retain its last push but will not allow any more change to happen until you solve the error.
 
-This is where people mess things up. They assume may be the last commit was the reason and they reset the branch to the previous commit. This will solve the problem if your last commit had error but what if your last one isn't the culprit?!
+This is where people mess things up. They assume that the last commit was the reason and they may reset the branch to the previous commit. This will solve the problem if your last commit had error but what if your last one isn't the culprit?!
 
 What if you are using something that is deprecated? So in such cases, it is a little hard to figure out what went wrong. But do not try to change too many things like I did one time which caused this downtime.
 
 ![jekyll page build error downtime](/images/jekyll-pagebuild-error-downtime.png)
 
 ## How to identify the error
-Usually, Github sends you an email when page build error happens. Most of the times it will have the details on what went wrong. If you do not receive one then you can check the settings page in your website repository for any error messages.
+Github sends you an email in most cases when a page build error happens. Most of the times it will have the details on what went wrong. If you do not receive one then you can check the settings page in your website repository for any error messages.
 
 ![Jekyll page build error](/images/jekyll-page-build-error-screenshot.PNG){: .noborder }
 
@@ -150,7 +150,7 @@ I thought it was because I pushed a new post. But even after removing that post,
  Check if the last post has any markdown syntax error.
  
  **Step2:** 
- If you have made any recent CSS changes then check whether you have any curly braces or semicolon missing.
+ If you have made any recent CSS changes then check whether you have any curly braces or semicolons missing.
 
 **Step3:**
 If you have edited html or liquid syntax then check whether any tag is missing. Many times we forget to add ``</div>``, ``{% raw %}{% endfor %}{% endraw %}``, ``{% raw %}{% endif %}{% endraw %}``.  Check [this article](https://help.github.com/articles/troubleshooting-jekyll-builds/){: target="_blank" rel="nofollow"} for all kinds of errors possible.
@@ -158,7 +158,7 @@ If you have edited html or liquid syntax then check whether any tag is missing. 
 {% include adsense-inside-post.html %}
 
 **Step 4:**
-Check if a new version of Jekyll is released. Last time when Jekyll 3.0 was released, many using ``realtive_permalink`` got such page build errors because it was deprecated. Even for people using ``highlighter`` other than rouge got an error.
+Check if a new version of Jekyll is released. Last time when Jekyll 3.0 was released, many jekyll sites using ``realtive_permalink`` got such page build errors because it was deprecated. Even for people using ``highlighter`` other than **rouge** got an error.
 
 If none of these work for you then you should try the next method called exclusion method(or I call it so).
 
@@ -168,7 +168,7 @@ Jekyll site is basically divided into **Homepage**, **Pages**, **Posts** and som
 <div class="warning">
 <h3>Backup</h3>
 <p>
-While performing exclusion method, you may mess up the content of your local repository. It is better to keep a backup of the whole repository in a different folder.
+While performing exclusion method, you may mess up the content of your local repository. It is better to keep a backup of the whole repository in a different location.
 </p>
 </div>
 
@@ -179,7 +179,7 @@ Remove all the content from ``index.html`` or ``index.md`` in the root directory
 Remove all the content from ``page.html`` in **_layouts** folder. Now push the changes to see the errors are solved.
 
 **Step 3:**
-Do the same for ``post.html``. If you observe an error then move to step 4. If the error is gone then revert the changes and target ``posts.html``. Now remove ``{% raw %}{{ contents }}{% endraw %}`` from ``post.html`` and push changes. If you get no error then the problem is with posts. You should check individual posts. If you receive an error then posts are alright but something in the post layout is wrong.
+Do the same for ``post.html``. If you observe an error then move to step 4. If the error is gone then revert the changes and target ``posts.html``. Now remove ``{% raw %}{{ contents }}{% endraw %}`` from ``post.html`` and push changes. If you get no error then the problem is with posts. You should check individual posts. If you receive an error then posts are alright but something in the post layout is not right.
 
 
 Do similar process for all the content in your post layout till you get no error and then once you come down to an element which is wrong, see why that is happening.
@@ -190,7 +190,7 @@ By using this method I cornered this piece of code causing the problem
 <time>{{ page.date | date_to_string }}</time>
 {% endraw %}{% endhighlight %}
 
-I'm not sure why the error happened for a code which has no problem. But anyway, I changed it to
+I'm not sure why the error happened for a code which seems to be valid. But anyway, I changed it to
 
 {% highlight html %}{% raw %}
 <time>{{ page.date | date: '%B %d, %Y' }}</time>
