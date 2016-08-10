@@ -217,7 +217,7 @@ code {
     border-radius: 3px;
     background-color: transparent;
     display: inline-block;
-    max-width: 100%;
+    word-wrap: break-word;
     text-shadow: 0px 1px 1px;
 
     @include media-query($on-palm) {
