@@ -15,7 +15,7 @@ permalink: /jekyll-issues/
 
 
 
-When I began using Jekyll I have almost pulled away from it because of the errors I used to get. The problem was not Jekyll being meticulous about its code but me being a jerk not go through the documentations! Most of us are those guys who run a nuclear reactor without knowing how it works.
+When I began using Jekyll I was almost pulled away from it because of the errors I used to get. The problem was not Jekyll being meticulous about its code but me being a jerk not go through the documentations! Most of us are those guys who run a nuclear reactor without knowing how it works.
 
 ## The early Jekyll issues
 Let's begin with the basics. You've heard about Jekyll and you're all excited to create a blog. You find a theme, say [Hyde](https://github.com/poole/hyde){: target="_blank" rel="nofollow"}, you fork it, delete ``gh-pages``, create new ``gh-pages`` branch, check the **settings** and you get something like this.
