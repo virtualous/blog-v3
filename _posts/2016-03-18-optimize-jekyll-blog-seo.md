@@ -1,5 +1,5 @@
 ---
-title: 9 Basic SEO optimizations for a Jekyll Blog
+title: 9 Must do Jekyll SEO optimizations
 desc: Jekyll SEO is something I struggled hard to figure out since I moved from WordPress. Initially,it was hard but gradually I found out that we can do a lot of things using liquid syntax. I have discussed  
 keywords: 
 author: sharathdt
