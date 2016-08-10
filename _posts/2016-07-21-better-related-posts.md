@@ -1,5 +1,5 @@
 ---
-title: Making Jekyll related posts really realted!
+title: Making Jekyll related posts really related!
 desc: Jekyll related posts only shows recent posts by default. There is a better way to do this where we can filter posts with similar topics. This method will ensure that related posts are actually related.
 author: sharathdt
 tags: Jekyll

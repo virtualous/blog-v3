@@ -20,6 +20,8 @@ When I began using Jekyll I was almost pulled away from it because of the errors
 ## The early Jekyll issues
 Let's begin with the basics. You've heard about Jekyll and you're all excited to create a blog. You find a theme, say [Hyde](https://github.com/poole/hyde){: target="_blank" rel="nofollow"}, you fork it, delete ``gh-pages``, create new ``gh-pages`` branch, check the **settings** and you get something like this.
 
+Read: [How create a beautiful Jekyll Blog](/create-jekyll-blog/){: target="_blank"}
+
 ![Your site is using the relative_permalinks configuration option](/images/jekyll-build-issues.PNG){: .noborder}
 
 What? As per the tutorial, you should have seen a URL but you see an error!
@@ -29,7 +31,6 @@ Some Jekyll themes like [Hyde](http://hyde.getpoole.com){: target="_blank" rel="
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
-
 
 
 ## The second Jekyll error
@@ -104,6 +105,7 @@ Baseurl is just a **``/``** which should have been **``/hyde/``** or whatever th
 Edit it to **/hyde/** and check the website URL again. You should see the website with it's full style and functionality!
 
 Learning a little more about ``baseurl`` wouldn't hurt. Parker Moore(Jekyll developer) himself has posted this [article](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/){: target="_blank"} to clear the doubts.
+
 
 Now that the problem is resolved, you start writing your first blog post and try to see it in action but it doesn't show up!
 
