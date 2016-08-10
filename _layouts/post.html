@@ -11,22 +11,19 @@ layout: default
 
             <h2 itemprop="headline" id="post-title">{{ page.title }}</h2>
 
-            <div class="time-auth"><time class="by-line" >{{ page.date | date: '%Y-%B-%d' }}</time>&#44;&nbsp;&nbsp;<div class="post-view" id="ga-pageviews"></div></div> 
+            <div class="time-auth"><time class="by-line" >{{ page.date | date: '%Y %B %d' }}</time>&#44;&nbsp;&nbsp;<div class="post-view" id="ga-pageviews"></div></div> 
             {% include post-tags.html %}	
             <div itemprop="articleBody" class="content" >
                     {{ content }}
             </div>
             </article>	
-            <p><small class="edit">Something isn't right or missing in this article? <a  href="https://github.com/sharu725/blog-v3/tree/gh-pages/_posts" target="_blank">Edit and create a pull request</a></small></p>
+            <p><small class="edit">Something isn't right or missing in this article? <a  href="https://github.com/sharu725/blog-v3/edit/gh-pages/{{page.path}}" target="_blank">Edit and create a pull request</a></small></p>
             {% include share.html %}
             
             <br />
             <br />
 
              {% include you-may-also-like.html %}
-
-
-
             
             <div class="clear"></div>
             
