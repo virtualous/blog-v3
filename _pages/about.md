@@ -20,11 +20,12 @@ I have created this blog to help **web designers** to get started in the right w
 The first thing you notice on visiting my website is that it is **minimal**. I believe more decorations lead to distractions. So you don't see any bells and rings - only content. The second thing you notice is that it is **fast**. Because of constant optimization and again because of no 'bells and rings'.
 
 As a web designer, one has to give attention to **appearance**, **performance**, and **accessibility** which involves good looking template, website loading speed, ranking on search engines etc. I have discussed these aspects extensively in this blog.
+{: .g}
 
 I write the things I have tried. That takes a while to research, test, and test again on other platforms. Writing a tech article which deals with coding isn't easy. It involves a lot of hard work. How do I get paid for this? I run Adsense on this blog.
 
 All the stuff on my blog is free. All I ask my users is to whitelist my domain. That's the only way I have monetized it. I promise the readers that there will not be any annoying ads.
-
+{: .r}
 
 Most of these articles are also in video format. Check out my <a target="_blank" href="{{site.youtube}}" ><i class="fa fa-youtube-square"></i>&nbsp;YouTube channel</a>
 
@@ -60,6 +61,7 @@ If you are looking for a modern, fast-loading, visually appealing website, then 
 </form>
 </div>
 <script type='text/javascript' src='/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<br />
 
 **Disclaimer:** This website is under constant modification. If you find something isn't right then feel free to report.
 

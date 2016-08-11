@@ -33,6 +33,7 @@ There is nothing to panic over a **page build error** because your site will ret
 This is where people mess things up. They assume that the last commit was the reason and they may reset the branch to the previous commit. This will solve the problem if your last commit had error but what if your last one isn't the culprit?!
 
 What if you are using something that is deprecated? So in such cases, it is a little hard to figure out what went wrong. But do not try to change too many things like I did one time which caused this downtime.
+{: .r}
 
 ![jekyll page build error downtime](/images/jekyll-pagebuild-error-downtime.png)
 

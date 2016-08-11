@@ -65,7 +65,8 @@ which was supposed to look like this!
 
 This is where most of us give up. We think this is never going to work. We all have seen this. Haven't we? 
 
-A careful observation tells us that the problem is just with the assets(css, js, images). It is not loading. Why?
+A careful observation tells us that the problem is just with the assets(css, js, images). They are not loading. Why?
+{: .y}
 
 Right click on it and view pages source
 
@@ -105,7 +106,7 @@ Baseurl is just a **``/``** which should have been **``/hyde/``** or whatever th
 Edit it to **/hyde/** and check the website URL again. You should see the website with it's full style and functionality!
 
 Learning a little more about ``baseurl`` wouldn't hurt. Parker Moore(Jekyll developer) himself has posted this [article](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/){: target="_blank"} to clear the doubts.
-
+{: .g}
 
 Now that the problem is resolved, you start writing your first blog post and try to see it in action but it doesn't show up!
 

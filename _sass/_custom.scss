@@ -59,6 +59,22 @@ p.right {
     }
 }
 
+.g{
+    background-color: #b0eaba;
+    padding: 8px;
+    border-radius: 5px;
+}
+.y{
+    background-color: #f1eba7;
+    padding: 8px;
+    border-radius: 5px;
+}
+.r{
+    background-color: #f3bbba;
+    padding: 8px;
+    border-radius: 5px;
+}
+
 .full {
     width: 100%;
     border-radius: 4px;
@@ -148,8 +164,8 @@ p.right {
     border-left: 1.2em solid #D24D57;
 }
 .note {
-    background-color: #3DBB3B;
-    border-left: 1.2em solid #257B12;
+    background-color: #39ab56;
+    border-left: 1.2em solid #048645;
 }
 .tips{
     background-color: #22A7F0;
@@ -158,7 +174,7 @@ p.right {
 .warning, .note, .tips {
 
     border-radius: 0 4px 4px 0;
-    padding: 5px 5px 5px 15px;
+    padding: 15px 5px 5px 15px;
     margin: 2em 0 2em 0;
     color: #fff;
     text-shadow: 0px 0px 1px;
