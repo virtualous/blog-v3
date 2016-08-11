@@ -219,7 +219,7 @@ code {
     display: inline-block;
     word-wrap: break-word;
     text-shadow: 0px 1px 1px;
-
+    max-width: 100%;
     @include media-query($on-palm) {
     max-width: 92%;
     }
