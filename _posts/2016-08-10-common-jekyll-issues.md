@@ -110,6 +110,36 @@ Learning a little more about ``baseurl`` wouldn't hurt. Parker Moore(Jekyll deve
 
 Now that the problem is resolved, you start writing your first blog post and try to see it in action but it doesn't show up!
 
+
+## Jekyll not showing images
+This problem is mostly faced by new developers who try to host their website on Github Pages. They check the website files locally and everything works fine but when they push it to Github, they see this 
+
+![jekyll not showing images ](/images/jekyll-images-not-showing.PNG)
+
+Which was supposed to look like this.
+
+![jekyll not showing images ](/images/jekyll-images-not-showing-2.jpg)
+
+
+The problem is simple. For some reason the image is not getting detected. But we know that the image is present. Just inspect the image(error image) and see why it is not showing up.
+
+![jekyll images not displaying  ](/images/jekyll-image-not-showing.png)
+
+Inspecting the code might relveal something like this
+
+{% highlight yml %}
+<div>
+<img src="img/some-image.jpg" class="img-responsive" alt="">
+</div>
+{% endhighlight %}
+
+What we observe here is that the image path is from the root but Github Pages will not recognize this. Adding a **/** in the beginning of the path will solve the error most of the times but that may not be enough.
+
+You may have to specify that the root of the folder is your repository. If your repository name is **repo** then the image path should be ``/repo/img/some-image.jpg``. This should solve the error.
+
+For Jekyll users, ``/repo`` is actually **baseurl**. So if you have mentioned ``baseurl: /repo`` in the **_config.yml** file then you can change the path to ``{% raw %}{{site.baseurl}}/img/some-img.jpg{% endraw %}``
+
+
 ## Jekyll post not getting generated
 
 There are some reasons for this. Make sure you did not get any page build error. If so, read [How to deal with page build errors](/page-build-error/){: target="_blank"}. Most of the times it will be a markdown syntax error.
