@@ -775,28 +775,3 @@ a.btn {
  display: block;
 }
 
-.eee {
-    color: #fff;
-    transition: 0.2s ease-in;
-    &:hover{
-        color: #333;
-    }
-}
-
-.ml2 {
-    margin-left: 2em;
-    @include media-query($on-palm) {
-        margin-left: 0;
-    }
-    
-}
-.mt2 {
-    margin-top: 2em;
-}
-
-.table-cell{
-    display: table-cell;
-    @include media-query($on-palm) {
-        display: block;
-    }   
-}
