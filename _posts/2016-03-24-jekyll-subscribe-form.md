@@ -32,7 +32,7 @@ This is one of those things I always wanted in Jekyll but did not know how to do
 
 It was a painful experience. FormSpree requires verification. This verification is URL specific. If the form is on all the pages of the website then I have to verify an email for every single page! FormSpree is good if you are using it on one specific page but not for all pages. What I eventually found was that SimpleForm can be used to make a contact form which works on all pages! Which means it can be used as a subscribe form.
 
-There are two types of subscribe forms described here. One is just an email collector and another one is a fully automatic mailchimp subscribe form for Jekyll. If you are looking for mailchimp form then skip to end.
+There are two types of subscribe forms described here. One is just an email collector and another one is a fully automatic mailchimp subscribe form for Jekyll. If you are looking for mailchimp form then skip to [jekyll mailchimp form](#update-1---mailchimp-subscribe-form-on-jekyll).
 
 What I'm showing here is an email collector. So it just collects users' emails. I think that is what a basic subscriber form does. You can also setup an auto-reply option. Auto-reply can help if you are offering an e-book for a subscription. I haven't tried it yet but it should work.
 
@@ -122,7 +122,7 @@ I hope that helped. I was using feed-burner for subscriptions. I have a post on 
 ![embed mailchimp form on jekyll blog](/images/mailchimp-form-jekyll.png){: .noborder }
 {: .right .half }
 
-[**steven_nc**](https://disqus.com/by/steven_nc/){:rel='nofollow'}{:target="_blank"} commented asking how do I handle un-subscriptions, which is a valid question because users may want to opt out of your mailing list. Thanks to him for bringing up this topic.
+A user asked how he can handle un-subscriptions, which is a valid question because users may want to opt out of your mailing list. Thanks to him for bringing up this topic.
 
 As I have mentioned in the article this is a completely manual subscription handling. But what if someone wants an automated list generation. Which means after every subscription, email will be collected as a list and if someone wants to un-subscribe, the list will update itself.
 
@@ -177,7 +177,7 @@ I have a working form as well!
        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div id="mc_embed_signup">
-<form action="//redgadgets.us10.list-manage.com/subscribe/post?u=210acce5db69d3d4a04b0e25d&amp;id=a268d63442" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="//webjeda.us10.list-manage.com/subscribe/post?u=210acce5db69d3d4a04b0e25d&amp;id=bee17ce703" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
     <h2>Subscribe to our mailing list</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
@@ -199,7 +199,7 @@ I have a working form as well!
 <!--End mc_embed_signup-->
 
 <p></p>
-Once you enter the details, hit subscribe key; You should receive an email right then. Actually this is the form I'm using in my website. You will get the same form when you click on **Subscribe** button on the menu bar. The form may look different but it does the same job as this form.
+Once you enter the details, hit subscribe button; You should receive an email right then. Actually this is the form I'm using in my website. You will get the same form when you click on **Subscribe** button on the menu bar. The form may look different but it does the same job as this form.
 
 Watch a video tutorial instead
 <iframe class="video" src="https://www.youtube.com/embed/zhHY4tWpFz4?rel=0" frameborder="0" allowfullscreen></iframe>
