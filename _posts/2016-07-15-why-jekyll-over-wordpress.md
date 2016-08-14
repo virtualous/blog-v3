@@ -17,6 +17,7 @@ layout: post
 A long time ago I had few blogs that were running on WordPress. I bought domain names and a reliable hosting space to keep them running. WordPress blog is very easy to set up. There are thousands of themes and plugins for all kinds of looks and functionalities.
 
 **But, what's wrong?**
+{: .r}
 
 # WordPress
 
@@ -45,6 +46,7 @@ This is actually the key reason to migrate from WordPress. WordPress has a lot o
 <p></p>
 
 **What's so good about Jekyll?**
+{: .g}
 
 # Jekyll
 
