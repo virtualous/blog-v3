@@ -110,7 +110,7 @@ Now your blog is ready to rock. But let's find some organic traffic. Read [How t
 ## Secure your Jekyll blog with https
 Using SSL on Jekyll blog will improve your search engine ranking! It also keeps users session safe. Read [How to get SSL certificate for Jekyll](http://blog.webjeda.com/jekyll-ssl/){: target="_blank"}.
 
-## Conclusion
+# Conclusion
 There are 100 other things you can do using Jekyll but for a beginner, the above tasks are enough to start off with. I don't think I will ever go back to WordPress. But I still suggest WordPress for non-technical people who do not want to touch a single line of code. Try Jekyll at least for fun and let me know how you felt.
 
 I may have missed several points on WordPress and Jekyll regarding their advantages, disadvantages, user-friendliness etc. Let me know what is missing so that I can add to the list. 
