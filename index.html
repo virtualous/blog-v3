@@ -120,9 +120,6 @@ layout: default
 
 .ml2 {
     margin-left: 2em;
-    @include media-query($on-palm) {
-        margin-left: 0;
-    }
     
 }
 .mt2 {
@@ -131,10 +128,19 @@ layout: default
 
 .table-cell{
     display: table-cell;
-    @include media-query($on-palm) {
-        display: block;
-    }   
+    
 }
+    
+   @media screen and (max-width: 600px) {
+        .ml2{
+            margin-left: 0;
+        } 
+        .table-cell{
+            display: block;
+        }
+        
+    } 
+    
 </style>
 
 
