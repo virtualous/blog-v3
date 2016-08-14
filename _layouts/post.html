@@ -9,7 +9,7 @@ layout: default
     <div itemscope itemtype="http://schema.org/TechArticle"  class="line-by">
         <article  id="post-page" >
 
-            <h2 itemprop="headline" id="post-title">{{ page.title }}</h2>
+            <h1 itemprop="headline" id="post-title">{{ page.title }}</h1>
 
             <div class="time-auth"><time class="by-line" >{{ page.date | date: '%Y %B %d' }}</time>&#44;&nbsp;&nbsp;<div class="post-view" id="ga-pageviews"></div></div> 
             {% include post-tags.html %}	

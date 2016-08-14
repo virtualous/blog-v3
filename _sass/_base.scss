@@ -22,7 +22,6 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
 
-  font-weight: 400;
   color: lighten($brand-color, 10%);
   letter-spacing: -.025rem;
 }
@@ -71,7 +70,7 @@ h1 {
 
 h2 {
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 300;
     @include media-query($on-palm) {
          font-size: 1.3em;
     }
@@ -79,11 +78,11 @@ h2 {
 
 h3 {
     font-size: 1.5em;
-    font-weight: 600;
+    font-weight: 300;
     
     @include media-query($on-palm){
         font-size: 1.2em;
-        font-weight: 600;
+
     }
 }
 
