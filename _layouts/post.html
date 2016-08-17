@@ -3,6 +3,20 @@ layout: default
 ---
 
   
+<script>
+window.onscroll = function()
+{
+    if(pageYOffset >= 1000)
+    {
+        document.getElementById('go-top').style.display="block"
+    }
+    else {
+        document.getElementById('go-top').style.display = "none";
+    }
+    
+};
+</script>
+  
  <main class="page-content" aria-label="Content">
     <br />
                  {% include adsense-pt.html %} 
@@ -48,17 +62,10 @@ layout: default
  {% endif %}
               
                <!-- JQuery -->
-<script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+ <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
-<script>
-    $(window).scroll(function() {
-    if ($(this).scrollTop() > 500) {
-        $('#go-top').fadeIn();
-    } else {
-        $('#go-top').fadeOut();
-    }
-});
-</script>
+
+
 {% include ga_data_fetch.html %}
 
 {% if site.sumo == 'no' %}{% else %}
