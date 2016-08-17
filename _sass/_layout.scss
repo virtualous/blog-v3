@@ -298,6 +298,7 @@ a {
     
     @include media-query($on-palm) {
             width: 100%;
+            padding: 4%;
             margin: 0 auto;
         }
 }
