@@ -4,10 +4,10 @@
 <div class="rect">
     {% for jekyll-themes in site.jekyll-themes  limit:4 %}
          {% if jekyll-themes.url != page.url %}
-             <a class="ymae" href="{{ jekyll-themes.url | prepend: site.baseurl }}">
+             <a href="{{ jekyll-themes.url | prepend: site.baseurl }}">
                   <div class="rel">
                       <h5>{{ jekyll-themes.title }}</h5>
-                      <img alt="{{jekyll-themes.title | append:'jekyll theme'}}" width="100%" src="/thumbs/{{ jekyll-themes.img }}">
+                      <img alt="{{jekyll-themes.title | append:'jekyll theme'}}" src="/thumbs/{{ jekyll-themes.img }}">
                   </div>
               </a>
         {% endif %}

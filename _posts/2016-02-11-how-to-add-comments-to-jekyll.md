@@ -1,6 +1,6 @@
 ---
-title: Adding comments to Jekyll blog
-desc: Comments is not included in Jekyll by default. Unlike WordPress, we have to integrate comments to Jekyll blog ourselves. With this tutorial, learn how to integrate disqus, facebook and google comments with Jekyll.
+title: 3 Ways to Get Feedback on Your Jekyll Blog
+desc: Jekyll comments is not available by default. Unlike WordPress, We have to integrate third party commenting tools like disqus, facebook, google to Jekyll blog.
 keywords: add comments to Jekyll blog, add disqus to Jekyll, disqus Jekyll
 author: sharathdt
 tags: Jekyll SEO
