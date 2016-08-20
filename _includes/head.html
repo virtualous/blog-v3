@@ -58,7 +58,7 @@
 <meta rel="author" content="Sharath Kumar">
   
    <!-- Publisher -->
-<link rel="publisher" href="https://plus.google.com/b/111361987929035019038/111361987929035019038"/>
+<link rel="publisher" href="https://plus.google.com/b/111361987929035019038/+WebJeda"/>
    
     <!-- Favicon -->
 <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
@@ -67,7 +67,12 @@
 <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-iphone-60x60.png">
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-ipad-retina-152x152.png">
   <!-- Critical CSS -->
-<link rel="stylesheet" href="{{ '/css/critical.css' | prepend: site.baseurl }}">
+<style>
+          {% capture include_to_scssify %}
+          {% include critical.scss %}
+          {% endcapture %}
+          {{ include_to_scssify | scssify }}
+  </style> 
   
 
 {% if site.ad == 'no' %}{% else %}  
