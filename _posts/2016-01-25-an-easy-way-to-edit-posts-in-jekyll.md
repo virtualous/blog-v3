@@ -11,7 +11,7 @@ permalink: /edit-posts-jekyll/
 
 <img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>In my initial days of blogging with Jekyll, I used to edit posts directly inside Github repository. All the posts will be inside ```_posts``` folder. Editing was easy since it was markdown. But the real struggle was to insert images. If the image source is a URL then it was easy but if the image was inside my local computer folder then there was no way uploading it. I did not know [**how to sync files and folders with Github**](http://blog.webjeda.com/how-to-sync-files-folders-with-github){:rel='dofollow'}{:target="_blank"}.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>In my initial days of blogging with Jekyll, I used to edit posts directly inside Github repository. All the posts will be inside ```_posts``` folder. Editing was easy since it was markdown. But the real struggle was to insert images. If the image source is a URL then it was easy but if the image was inside my local computer folder then there was no way uploading it. I did not know [**how to sync files and folders with Github**](/sync-files-folders-github/){:rel='dofollow'}{:target="_blank"}.
 {: .intro}
 
 <a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
@@ -100,7 +100,7 @@ Now in the above snippet, you can change the ```rooturl:``` to any folder you wa
 
 ## Why prose.io?
 
-Once you figure out [**how to sync files and folders with Github from your local folders**](http://blog.webjeda.com/how-to-sync-files-folders-with-github){:rel='dofollow'}{:target="_blank"}, you will realize that ```prose.io``` is not even required and you may think that you have been following the hard way all this time. But syncing files to Github can be hard for many beginners. Unless you have a little understanding about how ```git``` works, you cannot successfully sync files or at least cannot troubleshoot a simple issue.
+Once you figure out [**how to sync files and folders with Github from your local folders**](/sync-files-folders-github/){:rel='dofollow'}{:target="_blank"}, you will realize that ```prose.io``` is not even required and you may think that you have been following the hard way all this time. But syncing files to Github can be hard for many beginners. Unless you have a little understanding about how ```git``` works, you cannot successfully sync files or at least cannot troubleshoot a simple issue.
 
 This is the reason why I recommend prose.io for beginners. It is simple, easy and GUI!
 

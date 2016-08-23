@@ -51,9 +51,9 @@ Once you drop the files or folders inside, let it upload and click on **Commit**
 
 That's all. Now check your repository whether the uploaded files and folders are showing up. 
 
-Ok, what if we want to change a file? You can find the file and change it in a browser or do all the changes necessary and push it all together using [how to sync files and folders to Github](http://blog.webjeda.com/how-to-sync-files-folders-with-github/) method.
+Ok, what if we want to change a file? You can find the file and change it in a browser or do all the changes necessary and push it all together using [how to sync files and folders to Github](/sync-files-folders-github/) method.
 
-Editing files (posts) in github repository is fine but for a better user interface, [use prose.io](/an-easy-way-to-edit-posts-in-jekyll/).
+Editing files (posts) in github repository is fine but for a better user interface, [use prose.io](/edit-posts-jekyll/).
 {: .clear}
 
 Thanks for reading!

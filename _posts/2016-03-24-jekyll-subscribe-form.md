@@ -6,6 +6,7 @@ author: sharathdt
 tags: Jekyll
 image: jekyll-subscribe-form.png
 layout: post
+permalink: /jekyll-subscribe-form/
 ---
 
 <img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
@@ -44,7 +45,7 @@ If you want to use MailChimp form on jekyll (I'm currently using it) then skip t
 
 ## How to make a subscribe form on Jekyll blog?
 
-We are using a free service called [**SimpleForm**](https://getsimpleform.com/){:rel='nofollow'}{:target="_blank"} to create our form. SimpleForm is a service similar to Formspree which I discussed in [How to make a contact form in Jekyll](/how-to-add-form-option-to-jekyll-websites/){:target="_blank"}
+We are using a free service called [**SimpleForm**](https://getsimpleform.com/){:rel='nofollow'}{:target="_blank"} to create our form. SimpleForm is a service similar to Formspree which I discussed in [How to make a contact form in Jekyll](/jekyll-contact-form/){:target="_blank"}
 
 I'm not using FormSpree because it doesn't work on all pages. Formspree is URL specific. If you want your subscribe form to be on all the pages(which is usually the case), SimpleForm has to be the logical choice.
 

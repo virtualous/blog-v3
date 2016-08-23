@@ -125,7 +125,7 @@ If you want to show the number of comments anywhere on the website then you can 
 
 <div class="warning">
 <h3>Warning</h3>
-<p>Disqus may not work as expected if you have compress.html active to <a href="http://blog.webjeda.com/how-to-compress-html-in-jekyll/" rel="nofollow" target="_blank">compress jekyll html</a>.
+<p>Disqus may not work as expected if you have compress.html active to <a href="/compress-html-jekyll/" rel="nofollow" target="_blank">compress jekyll html</a>.
 
 And also, Google does not index Disqus blog many times. If you are very serious about your comments to be indexed then you may have to look for other options or follow <a href="https://help.disqus.com/customer/en/portal/articles/762307-why-isn-t-google-indexing-my-comments-" rel="nofollow" target="_blank">this question</a>.
 
@@ -139,7 +139,6 @@ But Matt Cutts from Google tweeted that the Google-bot (crawler) can now index <
 
 
 <div id="step4"></div><br />
-
 
 ### Step 4: Making use of Jekyll templates
 

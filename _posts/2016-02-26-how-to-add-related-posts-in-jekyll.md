@@ -41,7 +41,7 @@ Jekyll has a variable to show the related posts (up to 10). But the problem is t
 
 But anyway it is a great way to let users know about your latest articles. It can be improved with some complex process of category wise matching. But I will write a detailed post in the update. For now refer to this [thread](http://stackoverflow.com/questions/10906574/filter-site-related-posts-in-jekyll){:rel='nofollow'}{:target="_blank"}.
 
-Here is the code I have used on my [chess blog](http://kidschessworld.com){:target="_blank"}.
+Here is the code I have used on my [chess blog](https://kidschessworld.com){:target="_blank"}.
 
 {% highlight html %}
 <div class="related">
@@ -99,7 +99,7 @@ May be you have to style the links so that they appear in two directions or at l
 Change your code accordingly to make it responsive. 
 <div class="tips">
 <h3>Tips</h3>
-<p>You can also use the code as a template that can be called anywhere on your blog. Read Step 4 of <a href="http://blog.webjeda.com/how-to-add-comments-to-jekyll/#step4" target="_blank"><strong>How to add Comments on Jekyll</strong></a> to implement related post as a template.</p>
+<p>You can also use the code as a template that can be called anywhere on your blog. Read Step 4 of <a href="/jekyll-comments/#step4" target="_blank"><strong>How to add Comments on Jekyll</strong></a> to implement related post as a template.</p>
 </div>
 
 I hope this article has helped you to make a navigation link of your own in your Jekyll blog. Let me know if you have any doubts. Subscribe for updates on upcoming articles.

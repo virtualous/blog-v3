@@ -37,7 +37,7 @@ You may have a website hosted on Github Pages which has a URL that looks similar
 ### A website hosted on Github Pages
 Creating a website or uploading a pre-built website to github pages has become very easy after GIthub released drag and drop upload option to its repositories.
 
-If you do not have a website yet, then refer to my post on [How to create a website and host it on github pages](http://blog.webjeda.com/how-to-create-and-host-a-website-on-github-pages/){:target="_blank"} to learn how you can create a simple website on Github Pages.
+If you do not have a website yet, then refer to my post on [How to create a website and host it on github pages](/create-jekyll-blog/){:target="_blank"} to learn how you can create a simple website on Github Pages.
 
 ### A domain bought from any registrar
 You have to purchase a domain from any registrar like GoDaddy, NamesCheap etc. It would cost you around $10 a year by the time this article being written.

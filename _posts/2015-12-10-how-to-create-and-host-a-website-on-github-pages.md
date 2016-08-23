@@ -134,7 +134,7 @@ You can access the website I created usign this link: [**redgadget.github.io/tes
 
 When you click on this link, it may redirect to **truejewels.in**. This is because I have configured a custom domain for this website.
 
-Read: [How to setup custom domain for github website](/how-to-add-custom-domain-to-github/){:target="_blank"}
+Read: [How to setup custom domain for github website](/custom-domain-github/){:target="_blank"}
 
 <p class="clear"></p>
 

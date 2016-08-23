@@ -195,7 +195,7 @@ whose respective URLs would be
 ## 3. Sitemap
 Having a sitemap is a necessity these days. It helps bots to crawl through your website easily. Also, submit sitemaps to search engines so that they don't have to look for it in the first place. 
 
-Read all about why we should use a sitemap and how to submit a sitemap to Google here [How to create a sitemap for Jekyll blog](http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog/){:target="_blank"}. Submitting sitemap and tracking how much of it has been indexed is the important task in SEO. Do not ignore this step.
+Read all about why we should use a sitemap and how to submit a sitemap to Google here [How to create a sitemap for Jekyll blog](/jekyll-sitemap/){:target="_blank"}. Submitting sitemap and tracking how much of it has been indexed is the important task in SEO. Do not ignore this step.
 
 ## 4. Image alt Tags
 
@@ -209,7 +209,7 @@ Also, be sure to use a related alt tag. This helps search engines to know what's
 
 ## 5. Connecting with Social Media
 
-Connecting to social media can be achieved by having a share option at the bottom of your posts. Read [How to add a share box to Jekyll](http://blog.webjeda.com/how-to-add-share-buttons-to-jekyll/){:target="_blank"}.
+Connecting to social media can be achieved by having a share option at the bottom of your posts. Read [How to add a share box to Jekyll](/share-buttons-jekyll/){:target="_blank"}.
 
 
 ## 6. Open graph and Twitter cards in Jekyll

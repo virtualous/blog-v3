@@ -32,7 +32,7 @@ You just lost a potential subscriber or even customer if you are selling somethi
 
 In this method of lazy loading css, the content loads without any style and then the stylesheet loads followed by JavaScript. You may have observed this while browsing my website. This is important for a user with a slow connection. Content(visible stuff) should load at the very beginning. Style(css) and scripts(js) can wait.
 
-This ensures that even if the style or script fails to load, the user can still read the content (if the content is text). You can also [minify your blog for faster loading](/how-to-compress-html-in-jekyll/){:target="_blank"}.
+This ensures that even if the style or script fails to load, the user can still read the content (if the content is text). You can also [minify your blog for faster loading](/compress-html-jekyll/){:target="_blank"}.
 
 What I did was, I put a script at the end of the html document to insert the css **link tag** only after loading the document. This was helpful because my ```main.css``` is a huge file and also font awesome stylesheet that loads from a CDN.
 
