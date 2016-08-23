@@ -1,6 +1,6 @@
 ---
 title: 3 Simple steps to setup Jekyll Categories and Tags
-desc: I have implemented categories in my Jekyll blog without using any plugin. You can implement Jekyll categories on your website by following these simple steps. 
+desc: Implementing Jekyll categories is tricky without using any plugin. But I have a step by step guide. You can implement Jekyll categories on your website by following these simple steps. 
 keywords: 
 author: sharathdt
 image: jekyll-categories.png
