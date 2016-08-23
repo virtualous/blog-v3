@@ -274,9 +274,9 @@ Here variables should be in this format
 
 ![How to add facebook jekyll blog comments]({{ site.url }}/images/how-add-facebook-comments-to-jekyll-blog.jpg)
 {: .right .large}
-Before adding facebook comments, you may have to create an app in facebook. I have explained the steps in [How to add facebook like button to Jekyll](http://blog.webjeda.com/how-to-add-facebook-like-button-to-jekyll/){:rel='dofollow'}{:target="_blank"}. 
+Before adding facebook comments, you may have to create an app in facebook. I have explained the steps in [How to add facebook like button to Jekyll](/facebook-like-button-jekyll/){:rel='dofollow'}{:target="_blank"}. 
 
-<div class="clear"></div>
+<div class="clear"></div> 
 
 After creating an app log on to [comments plugin page](https://developers.facebook.com/docs/plugins/comments){:rel='nofollow'}{:target="_blank"}. 
 
