@@ -1,5 +1,5 @@
 ---
-title: Jekyll Subscribe Form that Actually Works!
+title: A Jekyll Subscribe Form that Actually Works!
 desc: Subscribe form for Jekyll is not readily available because forms usually work with php code to send emails. But with this method, we can add a mailchimp subscribe form on any Jekyll blog which will work out of the box.
 keywords: 
 author: sharathdt
