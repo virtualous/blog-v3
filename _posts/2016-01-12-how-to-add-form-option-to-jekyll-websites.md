@@ -1,6 +1,6 @@
 ---
-title: 2 Reliable ways to Create a Contact Form in Jekyll
-desc: Contact forms in Jekyll should be different from normal php forms because Jekyll doesn't support php. Jekyll blog is static, so we should use forms that work for static sites. Here is a simple form that works on any Jekyll blog.
+title: Jekyll Contact Form Creation with Added Security!
+desc: Jekyll contact form should be different from normal php forms because Jekyll doesn't support php. Jekyll blog is static, so we should use forms that work for static sites. Here is a simple form that works on any Jekyll blog.
 keywords: form in Jekyll, form in Jekyll blog, form in a static website, formspree
 author: sharathdt
 tags: Jekyll Web-Design
