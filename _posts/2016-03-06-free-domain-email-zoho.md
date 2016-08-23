@@ -75,7 +75,7 @@ This is the crucial part where you have to verify your ownership of the domain. 
 Once you select your option (in my case it was **others**) you should see a table with **Name** and **Destination**.
 
 
-<div id="step7 clear"></div>
+<div id="step7" class="clear"></div>
 <p class="clear"></p>
 
 ### Step 7: CNAME set up for ZOHO
@@ -97,7 +97,7 @@ Finally click on **Save changes**. Do not close the window yet, we need it for 
 {: .right .half}
 Now come back to the **ZOHO Domain Setup** tab and click on the **Verify CNAME** button which will be at the bottom of the page. If not successful then give it some time. You should see the below message once you successfully verify your domain.
 
-<div id="step9 clear"></div>
+<div id="step9" class="clear"></div>
 
 ### Step 9: MX records for sending and receiving mails
 

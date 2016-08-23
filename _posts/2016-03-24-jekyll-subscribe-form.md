@@ -28,7 +28,7 @@ Many bloggers use mailing list for affiliate marketing. I don't think it is a ba
 
 WordPress has an advantage over Jekyll since it has many plugins that can do the job without breaking a sweat. But, after moving all my blogs from WordPress to Jekyll I had to find an alternative for subscribe forms.
 
-This is one of those things I always wanted in Jekyll but did not know how to do it. This idea hit me one day while I was working on contact forms. Initially, I tried to create a form with [FormSpree](http://formspree.com){:rel='nofollow'}{:target="_blank"} similar to [how I created a contact form](/jekyll-contact-form/){:target="_blank"}. 
+This is one of those things I always wanted in Jekyll but did not know how to do it. This idea hit me one day while I was working on contact forms. Initially, I tried to create a form with [FormSpree](http://formspree.io){:rel='nofollow'}{:target="_blank"} similar to [how I created a contact form](/jekyll-contact-form/){:target="_blank"}. 
 
 It was a painful experience. FormSpree requires verification. This verification is URL specific. If the form is on all the pages of the website then I have to verify an email for every single page! FormSpree is good if you are using it on one specific page but not for all pages. What I eventually found was that SimpleForm can be used to make a contact form which works on all pages! Which means it can be used as a subscribe form.
 

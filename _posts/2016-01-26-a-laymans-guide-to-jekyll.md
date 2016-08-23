@@ -86,7 +86,7 @@ This is also the  first file you should edit when you fork(copy) a new theme. In
 
 {% include adsense-inside-post.html %}
 
-<h3>2. index.html:</h3> This is your homepage in most cases. It can also be in the format ```index.md```. It usually has a _for_ loop to load all the posts. You can make changes to this file and design your index of posts like how I have done the card layout for my blog. Index file may also call ```default``` layout which will be inside ```_layout``` folder. You can also take the whole loop thing off and have a simple introduction page like how [Jekyll official site](jekyllrb.com){:rel='nofollow'}{:target="_blank"} has.
+<h3>2. index.html:</h3> This is your homepage in most cases. It can also be in the format ```index.md```. It usually has a _for_ loop to load all the posts. You can make changes to this file and design your index of posts like how I have done the card layout for my blog. Index file may also call ```default``` layout which will be inside ```_layout``` folder. You can also take the whole loop thing off and have a simple introduction page like how [Jekyll official site](http://jekyllrb.com){:rel='nofollow'}{:target="_blank"} has.
 
 <h3>3. some.xml:</h3> This file can be your post feeds or a sitemap. If you do not have one, you can always [create a sitemap](http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog){:target="_blank"} or a feeds file.
 

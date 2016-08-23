@@ -107,9 +107,9 @@ layout: null
 {% endraw %}
 </pre>
 
-If you have visited my [feed page](/atom.xml){:rel='dofollow'}{:target="_blank"}, you will see that it is different from all other pages. I just have plain HTML inside it. 
+If you have visited my [feed page](/feed.xml){:rel='dofollow'}{:target="_blank"}, you will see that it is different from all other pages. I just have plain HTML inside it. 
 
-[Raw feed.xml file](https://raw.githubusercontent.com/sharu725/emerald/gh-pages/atom.xml){:rel='nofollow'}{:target="_blank"}
+[Feed.xml file](https://raw.githubusercontent.com/sharu725/blog-v3/gh-pages/feed.xml){:rel='nofollow'}{:target="_blank"}
 
 
 ## Custom layouts

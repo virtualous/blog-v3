@@ -154,7 +154,7 @@ It has no **gh-pages** branch. I'm hosting it on the master branch. To do that, 
 
 If you access [http://sharu725.github.io](http://sharu725.github.io){:rel='nofollow'}{:target="_blank"} then you will end up in webjeda.com. This redirection happens after setting up a custom doamin name.
 
-I created this website using foundation framework which is similar to bootstrap. You can always use a template from [html5up](html5up.net){:rel='nofollow'}{:target="_blank"} which provides pretty good templates for free.
+I created this website using foundation framework which is similar to bootstrap. You can always use a template from [html5up](http://html5up.net){:rel='nofollow'}{:target="_blank"} which provides pretty good templates for free.
 
 <div class="tips">
 <h3>Free Web Hosting on Github!</h3>

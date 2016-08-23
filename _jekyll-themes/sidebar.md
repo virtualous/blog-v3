@@ -81,7 +81,7 @@ Make changes to the **master** branch and create a pull request. Do not use **gh
 
 
 # License
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-simple-sidebar/blob/gh-pages/LICENSE) license.
+Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the Apache 2.0 license.
 
 [**Demo**]({{page.link}}){: .btn }
 [**Download**]({{page.dlink}}){: .btn .red }

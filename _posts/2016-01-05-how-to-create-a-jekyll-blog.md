@@ -111,7 +111,7 @@ Branching in Github is nothing but taking the whole source code and make changes
 
 So once you fork the repository, make sure you are in the gh-pages branch. If not then create a branch with the name ``gh-pages``. Many themes tend to have only the ``master`` branch. So it is necessary to create a gh-pages branch to host the blog as a Project Page
 
-
+<div id="step4"></div>
 ## Step 4: Check for redirection
 
 Once you hit the fork button, all the files in the remote repository will be copied to a new repository in your Github account.
@@ -210,7 +210,7 @@ Here is a table for better understanding of User Pages and Project Pages.
 
 User Pages is meant to host a personal website. Maybe a portfolio, resume or a showcase of your work. There can be many Project pages but there should be only one User Page which can be accessed at the address ```http://username.github.io```. 
 
-To create Jekyll blog on User Pages, you should follow the same steps till [Step 4](#step-3-check-for-redirection) which is finding a theme, forking the repository and checking for redirection.
+To create Jekyll blog on User Pages, you should follow the same steps till [Step 4](#step4) which is finding a theme, forking the repository and checking for redirection.
 
 Now, go to **Settings** and rename the repository as **username.github.io** where username is your Github username.
 

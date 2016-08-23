@@ -54,7 +54,7 @@ Another thing I found very difficult was choosing the right tools for web develo
 
 [**Chrome Browser**](https://www.google.com/chrome/){:rel='nofollow'} - for its 'inspect' feature and JavaScript v8 engine.
 
-[**w3schools**](www.w3schools.com/){:rel='nofollow'} - they are the best at teaching how to code.
+[**w3schools**](http://www.w3schools.com/){:rel='nofollow'} - they are the best at teaching how to code.
 
 I hope you are wondering why **Sublime text** is not included in the list. I used to prefer Sublime text over Brackets! But for my blog posts, I needed a plugin to count the words. It was easy installing it on Brackets. Moreover, Brackets has live preview option!  And also, in-line editing makes it better than any other text editor.
 
