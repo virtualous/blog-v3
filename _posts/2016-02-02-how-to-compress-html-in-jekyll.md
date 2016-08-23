@@ -29,11 +29,6 @@ Though minifying CSS and JS is largely practiced, minifying HTML is not given su
 
 I have seen huge benefits by minifying my Jekyll blog. What if I tell you that minifying reduces the file size by more than 20%! May be because I have a lot of blank spaces and new lines in the un-minified version. And that's an improvement I shouldn't be missing.
 
-Here are the minified and unminified files of my last post. They have the same content by the way. You can check the file size by downloading them.
-
-[Unminified](/data/view-source_blog.webjeda.com_how-to-fetch-first-image-from-jekyll-post.html){:rel='nofollow'}{:target="_blank"} - 130kb
-
-[Minified](/data/view-source_blog.webjeda.com_how-to-fetch-first-image-from-jekyll-post-minified.html){:rel='nofollow'}{:target="_blank"} - 100kb
 
 {% include adsense-inside-post.html %}
 
