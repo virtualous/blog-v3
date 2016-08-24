@@ -1,5 +1,5 @@
 ---
-title: Adsense on Subdomain and Adsense on Jekyll
+title: How I added Adsense on Jekyll Subdomain
 desc: Adsense was successfully implemented on this Jekyll blog only after a deep research on Adsense policies. It is indeed possible to have ads on subdomain but you should know what you are doing. Just placing Adsense ads will not work.
 Keywords: adsense on subdomain, adsense on Jekyll
 author: sharathdt
