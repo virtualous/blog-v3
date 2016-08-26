@@ -2,7 +2,6 @@
 layout: default
 ---
 
-  
 <script>
 window.onscroll = function()
 {
@@ -17,6 +16,7 @@ window.onscroll = function()
 };
 </script>
   
+
  <main class="page-content" aria-label="Content">
     <br />
                  {% include adsense-pt.html %} 
@@ -32,6 +32,17 @@ window.onscroll = function()
             </div>
             </article>	
             <p><small class="edit">Something isn't right or missing in this article? <a  href="https://github.com/sharu725/blog-v3/edit/gh-pages/{{page.path}}" target="_blank">Edit and create a pull request</a></small></p>
+           
+            
+             <form action="//webjeda.us10.list-manage.com/subscribe/post?u=210acce5db69d3d4a04b0e25d&amp;id=bee17ce703" method="post" id="" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <h4>Get Free Updates + Cherry-picked Jekyll Theme List</h4>
+            <div class="mc-field-group">
+            <input style="width:90%" type="email" value="Email" name="EMAIL" class="required email" id="mce-EMAIL"><input type="submit" value="✔" name="subscribe" style="background:none; border:0;color:#0a5;font-size:120%;cursor:pointer"  class="sub-arrow">
+            </div>
+            </form>
+            <br />
+            <br />
+            
             {% include share.html %}
             
             <br />
@@ -57,7 +68,7 @@ window.onscroll = function()
               
 
 {% if site.ad == 'no' %}{% else %}
- <script>window.onload=function(){setTimeout(function(){var a=document.querySelector("ins.adsbygoogle");a&&0==a.innerHTML.replace(/\s/g,"").length&&(a.style.cssText="display:block !important; visibility:visible !important;text-decoration:none !important;font-family: 'wj';font-size: 1em; margin-top: 2em",a.innerHTML="<p>I notice that you're using an <strong>ad-blocker</strong>. That's cool, you want a fast and clean experience but let's imagine that you eat at a restaurant. Don't you pay for the meal?</p><p>I really appreciate if you could <strong>whitelist my website</strong>. Every resource on this website is free but ads are the only means I get paid for the hard work. I promise that they are <strong>not annoying</strong>.</p><img alt='whitelist' src='/img/whitelist.png'>")},
+ <script>window.onload=function(){setTimeout(function(){var a=document.querySelector("ins.adsbygoogle");a&&0==a.innerHTML.replace(/\s/g,"").length&&(a.style.cssText="display:block !important; visibility:visible !important;text-decoration:none !important;font-family: 'wj';font-size: 1em; margin-top: 2em",a.innerHTML="<p class='g'>I notice that you're using an <strong>ad-blocker</strong>. That's cool, you want a fast and clean experience but let's imagine that you eat at a restaurant. Don't you pay for the meal?</p><p>I really appreciate if you could <strong>whitelist my website</strong>. Every resource on this website is free but ads are the only means I get paid for the hard work. I promise that they are <strong>not annoying</strong>.</p><div class='centered'><img alt='whitelist' src='/img/whitelist.png'></div>")},
 2000)};</script>
  {% endif %}
               
@@ -67,7 +78,3 @@ window.onscroll = function()
 
 
 {% include ga_data_fetch.html %}
-
-{% if site.sumo == 'no' %}{% else %}
-<script defer="defer" src="//load.sumome.com/" data-sumo-site-id="dec2f5872eb578a8dc528768e57e31d20af5bf9e5fffdc1da6241fe254e00bc2" ></script>
-{% endif %}
