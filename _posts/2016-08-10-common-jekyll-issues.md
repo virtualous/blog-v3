@@ -222,6 +222,8 @@ It is easy to install Jekyll on windows now.
 
 That should do it. If you want a GUI installation process then follow this [link](http://jekyll-windows.juthilo.com/1-ruby-and-devkit/){: target="_blank" rel="nofollow"}
 
+A video on some basic Jekyll issues
+<iframe class="video" src="https://www.youtube.com/embed/bty7LHm14CA?rel=0" frameborder="0" allowfullscreen></iframe>
 
 These are the ones I can think of right now, feel free to suggest other issues in the comment section.
 

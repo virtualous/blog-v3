@@ -27,10 +27,10 @@ I was curious to know how they did it. After some research, I found out that the
 
 But by this time I had a good hang of Github Pages and started hosting my websites on it.
 
-I created few websites like
+I created(or used a theme for) few websites like
 
 
-[RedGadgets](http://redgadget.github.io/){:rel='nofollow'}
+[RedGadgets](http://redgadgets.com/){:rel='nofollow'}
 
 [Dxartist](http://dxartist.github.io/){:rel='nofollow'}
 

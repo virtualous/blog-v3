@@ -64,9 +64,8 @@ layout: default
      {% for post in paginator.posts %} 
        <a class="post-link-index" href="{{ post.url | prepend: site.baseurl }}">
           <div itemscope itemtype="http://schema.org/TechArticle" class="card">
-                <img alt="{{ post.title }}" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs-small/{{ post.image }}" width="300" height="188" />
-                
-                
+                 <img alt="{{ post.title }}" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs-small/{{ post.image }}" width="300" height="188" />
+
                 <div class="card-footer">
                     <h6 itemprop="headline" class="post-index-title">{{ post.title }}</h6>
                      <div itemprop="keywords" class="home-tag" style="background-color: {% cycle '#e74c3c', '#1abc9c', '#e67e22', '#34495e', '#f1c40f', '#3498db', '#2ecc71', '#9b59b6' %}">{{ post.tags | first | strip }}</div>
