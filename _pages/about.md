@@ -27,6 +27,83 @@ I write the things I have tried. That takes a while to research, test, and test 
 All the stuff on my blog is free. All I ask my users is to whitelist my domain. That's the only way I have monetized it. I promise the readers that there will not be any annoying ads.
 {: .r}
 
+I also accept donations.
+
+<a target="_blank" class="donate" href="https://www.paypal.me/webjeda">Donate</a>
+<style>
+.donate {
+	background-color: #3bb3e0;
+    width: 150px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(44,160,202)), color-stop(1, rgb(62,184,229)) );
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+    -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+}
+
+.donate:active {
+    top: 0px;
+    background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(62,184,229)), color-stop(1, rgb(44,160,202)) );
+    -webkit-box-shadow: inset 0px 4px 1px #0b698b, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+    -moz-box-shadow: 0px 2px 0px 1px #156785, 0px 5px 3px #999;
+    -o-box-shadow: 0px 2px 0px 1px #156785, 0px 5px 3px #999;
+    box-shadow: inset 0px 4px 1px #0b698b, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+}
+
+.donate::before {
+	background-color: #fff;
+    background-image: url(/img/heart.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    content: "";
+    width: 148px;
+    height: 40px;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    margin-top: -11px;
+    z-index: -1;
+    border: 1px solid #eee;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.donate:active::before {
+	top: -33px;	
+	box-shadow: 0px 3px 0px #ccc;
+}
+</style>
+
 Most of these articles are also in video format. Check out my <a target="_blank" href="{{site.youtube}}" ><i class="fa fa-youtube-square"></i>&nbsp;YouTube channel</a>
 
 **There are a number of ways to reach out to me. Here are a few.**
