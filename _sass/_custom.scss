@@ -781,3 +781,9 @@ a.btn {
  display: block;
 }
 
+.pconly {
+    display: block;
+     @include media-query($on-palm) {
+        display: none;
+    }
+}
