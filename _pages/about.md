@@ -31,6 +31,9 @@ I also accept donations.
 
 <a target="_blank" class="donate" href="https://www.paypal.me/webjeda">Donate</a>
 <style>
+a.donate:hover{
+   color: #fff;
+}
 .donate {
 	background-color: #3bb3e0;
     width: 150px;
