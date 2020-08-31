@@ -1,7 +1,7 @@
 # Site settings
 title: WebJeda | A modern web development blog
 description: "WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions. Contact us for modern, fast and responsive websites"
-url: https://virtualous.github.io/blog-v3
+url: /
 enforce_ssl: virtualous.github.io/blog-v3
 
 
