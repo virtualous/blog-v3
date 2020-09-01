@@ -12,6 +12,7 @@ image: webjeda-logo-big.jpg
 layout: post
 published: true
 ---
+![logo.png]({{site.baseurl}}/_posts/logo.png)
 
 <img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
