@@ -1,11 +1,15 @@
 ---
 title: Jekyll Issues aren't as Bad as You Think
-desc: For a beginner, Jekyll may seem like a hypersensitive platform. A little deviation in the code will lead to an error or will not output the desired result. I have discussed some common issues that occur. 
+desc: >-
+  For a beginner, Jekyll may seem like a hypersensitive platform. A little
+  deviation in the code will lead to an error or will not output the desired
+  result. I have discussed some common issues that occur.
 author: sharathdt
-tags: Jekyll 
+tags: Jekyll
 image: common-jekyll-issues.png
 layout: post
 permalink: /jekyll-issues/
+published: true
 ---
 
 <img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
